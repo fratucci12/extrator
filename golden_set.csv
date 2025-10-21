@@ -1,0 +1,1266 @@
+document_id,filename,lote,item,campo,valor_verdade,pag,"bbox (x1,y1,x2,y2)",fonte (tabela/parágrafo/cabeçalho),comentario_annot
+9c3336e3265685b4117502c61aae7b26f245a5dfd26e0c3868c552c32ea67418,edital12.pdf,,1,lote,,3,,tabela,batch
+9c3336e3265685b4117502c61aae7b26f245a5dfd26e0c3868c552c32ea67418,edital12.pdf,,1,item,1,3,,tabela,batch
+9c3336e3265685b4117502c61aae7b26f245a5dfd26e0c3868c552c32ea67418,edital12.pdf,,1,nome do produto,DO OBJETO 1.1. O objeto da presente licitação é o registro de preços para futura e eventual aquisição de mobiliário,3,,tabela,batch
+9c3336e3265685b4117502c61aae7b26f245a5dfd26e0c3868c552c32ea67418,edital12.pdf,,1,quantidade,1,3,,tabela,batch
+9c3336e3265685b4117502c61aae7b26f245a5dfd26e0c3868c552c32ea67418,edital12.pdf,,1,valor_unitario,939763.22,3,,tabela,batch
+9c3336e3265685b4117502c61aae7b26f245a5dfd26e0c3868c552c32ea67418,edital12.pdf,,1,normas_técnicas,ABNT NBR 13962; NBR 13; NR 17,23,,cabeçalho,batch
+b3c20124f24356e9eae39bd1f6cd6b39c328f8dbd831c4676d3914082baad606,edital17.pdf,2,62,lote,2,18,,tabela,batch
+b3c20124f24356e9eae39bd1f6cd6b39c328f8dbd831c4676d3914082baad606,edital17.pdf,2,62,item,62,18,,tabela,batch
+b3c20124f24356e9eae39bd1f6cd6b39c328f8dbd831c4676d3914082baad606,edital17.pdf,2,62,nome do produto,"300 CADEIRA EXECUTIVA FIXA CADEIRA EXECUTIVA FIXA, COM ASSENTO E ENCOSTO CONFECCIONADO SOBRE CHAPA DE COMPENSADO",18,,tabela,batch
+b3c20124f24356e9eae39bd1f6cd6b39c328f8dbd831c4676d3914082baad606,edital17.pdf,2,62,quantidade,65,18,,tabela,batch
+b3c20124f24356e9eae39bd1f6cd6b39c328f8dbd831c4676d3914082baad606,edital17.pdf,2,62,valor_unitario,7030454.26,18,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,02,lote,,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,02,item,02,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,02,nome do produto,MESA PLA TAFORMA SIMPLES PÉ MET AL,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,02,quantidade,100,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,03,lote,,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,03,item,03,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,03,nome do produto,ARMÁRIO BAIXO,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,03,quantidade,75,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,04,lote,,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,04,item,04,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,04,nome do produto,GAVETEIRO VOLANTE DUAS GA VET AS E UM GAVETÃO,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,04,quantidade,100,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,05,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,05,item,05,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,05,nome do produto,MESA DE REUNIÃO COM CONECTIVIDADE,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,05,quantidade,10,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,06,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,06,item,06,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,06,nome do produto,BALCÃO DE ATENDIMENT O,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,06,quantidade,5,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,07,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,07,item,07,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,07,nome do produto,POL TRONA PRESIDENTE,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,07,quantidade,75,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,08,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,08,item,08,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,08,nome do produto,CADEIRA FIXA,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,08,quantidade,75,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,09,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,09,item,09,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,09,nome do produto,POL TRONA DIRET OR,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,09,quantidade,100,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,11,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,11,item,11,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,11,nome do produto,LONGARINA DE 2 LUGARES,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,11,quantidade,15,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,12,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,12,item,12,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,12,nome do produto,CADEIRA FIXA PRA OBESOS,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,12,quantidade,10,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,13,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,13,item,13,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,13,nome do produto,CADEIRA DIRET OR COM BRAÇOS COM BASE FIXA,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,13,quantidade,100,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,15,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,15,item,15,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,15,nome do produto,SOFÁ DE 2 LUGARES,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,15,quantidade,10,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,16,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,16,item,16,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,16,nome do produto,SOFÁ DE 3 LUGARES,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,16,quantidade,10,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,17,lote,,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,17,item,17,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,17,nome do produto,ESTANTE EM AÇO 1 2.3. No presente certame haverá itens com participação exclusiva à microemp resas e empresas de,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,17,quantidade,30,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,1,01,lote,1,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,1,01,item,01,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,1,01,nome do produto,MESA EXECUTIV A PÉ P AINEL COM ARMÁRIO LATERAL,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,1,01,quantidade,75,3,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,2,10,lote,2,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,2,10,item,10,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,2,10,nome do produto,LONGARINA DE 3 LUGARES,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,2,10,quantidade,15,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,3,14,lote,3,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,3,14,item,14,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,3,14,nome do produto,POL TRONA,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,3,14,quantidade,10,4,,tabela,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,02,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,02,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,02,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,03,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,03,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,03,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,04,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,04,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,04,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,05,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,05,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,05,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,06,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,06,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,06,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,07,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,07,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,07,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,08,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,08,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,08,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,09,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,09,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,09,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,11,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,11,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,11,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,12,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,12,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,12,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,13,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,13,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,13,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,15,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,15,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,15,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,16,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,16,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,16,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,17,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,17,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,,17,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,1,01,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,1,01,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,1,01,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,2,10,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,2,10,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,2,10,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,3,14,amostra,False,35,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,3,14,garantia,5,48,,cabeçalho,batch
+f04cc97b68d79d543b3527b75cd2d3d0ba82ea1dbfc137228929885ae55d98ae,edital11.pdf,3,14,normas_técnicas,NBR 14136,42,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,1,lote,,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,1,item,1,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,1,nome do produto,Armário alto medindo aproximadamente 1600mm A x 400mm L x 410mm P. Armário alto com dimensões aproximadas de 1600mm,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,1,quantidade,523,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,1,valor_unitario,716.17,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,2,lote,,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,2,item,2,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,2,nome do produto,Armário de aço medindo aproximadamente 1980mm A x 1200mm L x 400mm P. Armário metálico industrial com dimensões,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,2,quantidade,712,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,2,valor_unitario,1856.39,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,3,lote,,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,3,item,3,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,3,nome do produto,"Cadeira fixa modelo secretária 4 pés. Cadeira fixa modelo secretária 4 pés, com assento e encosto estofados com espuma",21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,3,quantidade,1467,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,3,valor_unitario,205.28,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,4,lote,,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,4,item,4,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,4,nome do produto,Cadeira presidente com assento e encosto em tela e braços reguláveis. Cadeira Ergonômica em Tela Presidente com encosto,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,4,quantidade,779,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,4,valor_unitario,1009.96,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,5,lote,,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,5,item,5,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,5,nome do produto,"Cadeira Secretária com assento e encosto em tela e braços reguláveis, Giratória, Ergônomica. Cadeira Ergonômica em Tela",21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,5,quantidade,1074,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,5,valor_unitario,530.78,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,6,lote,,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,6,item,6,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,6,nome do produto,"Cadeira Diretor Encosto Médio, Giratória, Ergonômica. Linha Extra Reforçada, com certificação. Cadeira Diretor Encosto",21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,6,quantidade,836,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,6,valor_unitario,1033.99,21,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,7,lote,,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,7,item,7,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,7,nome do produto,"Gaveteiro volante medindo 635mm A x 480mm P x 420mm L , com 3 gavetas. Gaveteiro volante com dimensões aproximadas de",22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,7,quantidade,555,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,7,valor_unitario,658.77,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,8,lote,,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,8,item,8,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,8,nome do produto,"Arquivo de aço medindo 1362mm A x 470mm L x 570mm P, com 04 gavetas. Arquivo de aço com dimensões aproximadas de 1362mm",22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,8,quantidade,595,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,8,valor_unitario,1122.72,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,9,lote,,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,9,item,9,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,9,nome do produto,"Longarina de 03 lugares, modelo Diretor. Longarina de 03 lugares modelo diretor com dimensões aproximadas de 1500mm",22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,9,quantidade,606,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,9,valor_unitario,1437.15,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,10,lote,,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,10,item,10,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,10,nome do produto,"Longarina de 05 lugares, modelo Diretor. Longarina de 05 lugares modelo diretor com dimensões aproximadas de 2500mm",22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,10,quantidade,610,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,10,valor_unitario,2056.38,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,11,lote,,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,11,item,11,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,11,nome do produto,Mesa retangular medindo 1200mm L x 600mm P x 735mm A. Mesa retangular com dimensões aproximadas de 1200mm L x 600mm P x,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,11,quantidade,640,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,11,valor_unitario,803.91,22,,tabela,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,1,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,1,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,2,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,2,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,3,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,3,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,4,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,4,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,5,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,5,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,6,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,6,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,7,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,7,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,8,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,8,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,9,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,9,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,10,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,10,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,11,amostra,False,7,,cabeçalho,batch
+f404f33f7a1b5a2862fda30d2ca315f5d4a998cef92cf7a796324eddf4b0c812,edital15.pdf,,11,normas_técnicas,ABNT NBR 11003; ABNT NBR 13961; ABNT NBR 8095; NBR 1; NBR 10443; NBR 10545; NBR 13962; NBR 15316; NBR 16527; NBR 16848; NBR 16849; NBR 16850; NBR 17088; NBR 8096; NR 17,17,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,item,0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,nome do produto,7 Sofá I,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,quantidade,50,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,valor_unitario,5462.1,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,item,0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,nome do produto,13 Gaveteiro II,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,quantidade,10,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,valor_unitario,998.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,1,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,1,item,1,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,1,nome do produto,Cadeira alta fixa metálica,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,1,quantidade,260,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,1,valor_unitario,297.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,2,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,2,item,2,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,2,nome do produto,Cadeira baixa fixa metálica,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,2,quantidade,668,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,2,valor_unitario,245.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,3,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,3,item,3,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,3,nome do produto,Estante metálica,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,3,quantidade,400,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,3,valor_unitario,529.99,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,4,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,4,item,4,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,4,nome do produto,Poltrona I,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,4,quantidade,170,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,4,valor_unitario,1019.99,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,5,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,5,item,5,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,5,nome do produto,Poltrona II,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,5,quantidade,6,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,5,valor_unitario,3999.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,6,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,6,item,6,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,6,nome do produto,Poltrona III,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,6,quantidade,200,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,6,valor_unitario,5253.1,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,7,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,7,item,7,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,7,nome do produto,Sofá I 618,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,7,quantidade,655,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,7,valor_unitario,5462.1,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,8,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,8,item,8,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,8,nome do produto,Sofá II,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,8,quantidade,5,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,8,valor_unitario,4319.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,9,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,9,item,9,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,9,nome do produto,Armário alto,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,9,quantidade,120,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,9,valor_unitario,1750.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,10,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,10,item,10,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,10,nome do produto,Armário baixo I,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,10,quantidade,490,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,10,valor_unitario,1150.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,11,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,11,item,11,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,11,nome do produto,Armário baixo II,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,11,quantidade,50,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,11,valor_unitario,1200.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,12,lote,,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,12,item,12,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,12,nome do produto,Gaveteiro I,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,12,quantidade,342,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,12,valor_unitario,995.0,25,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,13,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,13,item,13,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,13,nome do produto,Gaveteiro II 625,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,13,quantidade,410,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,13,valor_unitario,998.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,15,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,15,item,15,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,15,nome do produto,Mesa reta I 468,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,15,quantidade,464,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,15,valor_unitario,999.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,16,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,16,item,16,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,16,nome do produto,Mesa reta II,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,16,quantidade,100,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,16,valor_unitario,1010.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,17,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,17,item,17,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,17,nome do produto,Mesa reta III,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,17,quantidade,50,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,17,valor_unitario,1100.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,18,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,18,item,18,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,18,nome do produto,Mesa reta IV,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,18,quantidade,60,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,18,valor_unitario,1150.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,19,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,19,item,19,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,19,nome do produto,Mesa modular,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,19,quantidade,100,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,19,valor_unitario,950.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,20,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,20,item,20,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,20,nome do produto,Estação de trabalho I,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,20,quantidade,30,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,20,valor_unitario,3400.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,21,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,21,item,21,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,21,nome do produto,Estação de trabalho II,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,21,quantidade,5,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,21,valor_unitario,4100.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,22,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,22,item,22,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,22,nome do produto,Mesa de reunião quadrada I,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,22,quantidade,10,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,22,valor_unitario,1190.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,23,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,23,item,23,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,23,nome do produto,Mesa de reunião quadrada II,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,23,quantidade,10,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,23,valor_unitario,2150.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,24,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,24,item,24,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,24,nome do produto,Mesa de reunião retangular I,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,24,quantidade,30,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,24,valor_unitario,2700.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,25,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,25,item,25,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,25,nome do produto,Mesa de reunião retangular II,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,25,quantidade,10,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,25,valor_unitario,3150.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,26,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,26,item,26,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,26,nome do produto,Mesa de reunião retangular III,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,26,quantidade,35,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,26,valor_unitario,3700.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,27,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,27,item,27,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,27,nome do produto,Mesa de reunião retangular IV,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,27,quantidade,15,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,27,valor_unitario,4200.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,28,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,28,item,28,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,28,nome do produto,Mesa de reunião retangular V,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,28,quantidade,15,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,28,valor_unitario,6400.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,29,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,29,item,29,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,29,nome do produto,Mesa de reunião redonda I,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,29,quantidade,10,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,29,valor_unitario,2150.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,30,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,30,item,30,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,30,nome do produto,Mesa de reunião redonda II,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,30,quantidade,10,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,30,valor_unitario,3100.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,31,lote,,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,31,item,31,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,31,nome do produto,Mesa de recepção,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,31,quantidade,37,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,31,valor_unitario,3150.0,26,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,36,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,36,item,36,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,36,nome do produto,Mesa de apoio I,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,36,quantidade,30,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,36,valor_unitario,1979.1,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,37,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,37,item,37,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,37,nome do produto,Mesa de apoio II,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,37,quantidade,15,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,37,valor_unitario,290.63,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,38,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,38,item,38,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,38,nome do produto,Mesa de reunião alta,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,38,quantidade,35,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,38,valor_unitario,8000.0,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,39,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,39,item,39,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,39,nome do produto,Mesa de refeitório,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,39,quantidade,80,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,39,valor_unitario,1425.91,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,40,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,40,item,40,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,40,nome do produto,Mesa com ombrelone não consta,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,40,quantidade,10,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,40,valor_unitario,8000.0,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,41,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,41,item,41,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,41,nome do produto,Mesa sem ombrelone não consta,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,41,quantidade,10,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,41,valor_unitario,6475.0,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,42,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,42,item,42,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,42,nome do produto,Mesa de centro externo não consta,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,42,quantidade,7,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,42,valor_unitario,578.63,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,43,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,43,item,43,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,43,nome do produto,Poltrona externo,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,43,quantidade,14,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,43,valor_unitario,1965.55,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,44,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,44,item,44,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,44,nome do produto,Sofá externo,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,44,quantidade,7,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,44,valor_unitario,2971.6,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,45,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,45,item,45,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,45,nome do produto,Cadeira giratória alta 331,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,45,quantidade,62,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,45,valor_unitario,559.99,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,46,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,46,item,46,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,46,nome do produto,Cadeira fixa empilhável,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,46,quantidade,100,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,46,valor_unitario,185.0,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,47,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,47,item,47,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,47,nome do produto,Cadeira de reunião,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,47,quantidade,560,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,47,valor_unitario,589.9,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,48,lote,,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,48,item,48,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,48,nome do produto,Cadeira giratória até 250 Kg,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,48,quantidade,50,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,48,valor_unitario,3079.77,27,,tabela,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,0,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,1,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,1,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,2,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,2,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,3,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,3,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,4,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,4,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,5,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,5,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,6,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,6,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,7,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,7,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,8,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,8,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,9,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,9,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,10,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,10,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,11,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,11,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,12,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,12,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,13,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,13,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,15,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,15,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,16,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,16,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,17,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,17,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,18,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,18,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,19,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,19,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,20,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,20,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,21,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,21,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,22,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,22,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,23,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,23,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,24,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,24,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,25,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,25,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,26,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,26,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,27,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,27,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,28,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,28,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,29,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,29,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,30,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,30,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,31,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,31,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,36,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,36,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,37,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,37,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,38,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,38,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,39,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,39,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,40,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,40,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,41,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,41,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,42,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,42,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,43,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,43,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,44,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,44,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,45,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,45,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,46,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,46,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,47,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,47,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,48,garantia,6,31,,cabeçalho,batch
+ae9bb9041333c4abcf1cfa4986e03ca613b28576766766ef1f89750ca8e46d37,EDITAL 1.pdf,,48,normas_técnicas,NBR 13962; NBR 9050; NR 17,30,,cabeçalho,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,2,lote,,42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,2,item,2,42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,2,nome do produto,"UN LONGARINA 3 LUGARES : confeccionada em tubo de aço carbono, assento e encosto em polipropileno de alta resistência",42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,2,quantidade,1,42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,3,lote,,42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,3,item,3,42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,3,nome do produto,UN SOFÁ DE 3 LUGARES,42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,3,quantidade,20,42,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,4,lote,,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,4,item,4,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,4,nome do produto,UN SOFÁ DE 2 LUGARE S,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,4,quantidade,20,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,5,lote,,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,5,item,5,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,5,nome do produto,UN SOFÁ DE 1 LUGAR,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,5,quantidade,1,43,,tabela,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,2,normas_técnicas,ABNT NBR 10591; ABNT NBR 12984; ABNT NBR 14961; ABNT NBR 8516; ABNT NBR 8537; ABNT NBR 8619; ABNT NBR 9176; ABNT NBR 9177; ABNT NBR 9178; NBR 13962; NBR 14554; NR 17,9,,cabeçalho,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,3,normas_técnicas,ABNT NBR 10591; ABNT NBR 12984; ABNT NBR 14961; ABNT NBR 8516; ABNT NBR 8537; ABNT NBR 8619; ABNT NBR 9176; ABNT NBR 9177; ABNT NBR 9178; NBR 13962; NBR 14554; NR 17,9,,cabeçalho,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,4,normas_técnicas,ABNT NBR 10591; ABNT NBR 12984; ABNT NBR 14961; ABNT NBR 8516; ABNT NBR 8537; ABNT NBR 8619; ABNT NBR 9176; ABNT NBR 9177; ABNT NBR 9178; NBR 13962; NBR 14554; NR 17,9,,cabeçalho,batch
+34a76e3efff465abe775dfe1f77667035c75d5655c6775dee8e530edb05c1c55,edital 9.pdf,,5,normas_técnicas,ABNT NBR 10591; ABNT NBR 12984; ABNT NBR 14961; ABNT NBR 8516; ABNT NBR 8537; ABNT NBR 8619; ABNT NBR 9176; ABNT NBR 9177; ABNT NBR 9178; NBR 13962; NBR 14554; NR 17,9,,cabeçalho,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,1,lote,,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,1,item,1,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,1,nome do produto,"LONGARINA COM 04 LUGARES, ASSENTO PRODUZIDO EM MADEIRA COMPENSADA MULTILAMINADA PRENSADA A QUENTE COM ESPESSURA DE",22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,1,quantidade,20,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,2,lote,,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,2,item,2,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,2,nome do produto,"CADEIRA DE ESCRITÓRIO LONGARINA: 3 LUGARES, SEM BRAÇOS, CONFECCIONADA EM POLIPROPILENO INJETADO, ESTRUTURA TUBULAR EM",22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,2,quantidade,20,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,3,lote,,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,3,item,3,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,3,nome do produto,ARMÁRIO ESCRITÓRIO,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,3,quantidade,50,22,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,4,lote,,23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,4,item,4,23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,4,nome do produto,"ESTANTE DESMONTÁVEL DE AÇ O, 06 PRATELEIRAS COM 40 REGULAGENS DE ALTURA, DOBRAS DUPLAS NAS LATERAIS E TRIPLAS NAS",23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,4,quantidade,4,23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,8,lote,,25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,8,item,8,25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,8,nome do produto,"ARMÁRIO DE AÇO: CONFECCIONADO EM CHAPA DE AÇO Nº 22 (0,75 MM), COM DUAS PORTAS, QUATRO PRATELEIRAS, SENDO UMA FIXA E",25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,8,quantidade,50,25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,lote,,23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,item,32,23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,nome do produto,"LONGARINA COM BRAÇOS “Z” INTERCALADOS, ESTRUTURA CROMADA REVESTIDA EM VINIL DE 03 LUGARES ASSENTO E ENCOSTO: COMPENSADO",23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,quantidade,102,23,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,lote,,24,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,item,32,24,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,nome do produto,CADEIRA GIRATÓRIA COM BRAÇOS,24,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,quantidade,460,24,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,51,lote,,25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,51,item,51,25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,51,nome do produto,"ARMÁRIO EXTRA ALTO 02 (DUAS) PORTAS MEDINDO 0,80 X 2,10 X 0,45 (L X A X P) NA COR PRESTA 01 (UM) TAMPO CONFECCIONADA EM",25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,51,quantidade,20,25,,tabela,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,1,normas_técnicas,ABNT NBR 6591,25,,cabeçalho,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,2,normas_técnicas,ABNT NBR 6591,25,,cabeçalho,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,3,normas_técnicas,ABNT NBR 6591,25,,cabeçalho,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,4,normas_técnicas,ABNT NBR 6591,25,,cabeçalho,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,8,normas_técnicas,ABNT NBR 6591,25,,cabeçalho,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,32,normas_técnicas,ABNT NBR 6591,25,,cabeçalho,batch
+3d1348f3f68ea9699f2ffbc61ee01873b54c007f9393948e5db80e3edf3277b5,Edital 7.pdf,,51,normas_técnicas,ABNT NBR 6591,25,,cabeçalho,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,lote,1,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,item,1,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,nome do produto,2 CADEIRA GIRATÓRIA OPERACIONAL,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,quantidade,488,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,valor_unitario,1.0,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,lote,1,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,item,1,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,nome do produto,6 CADEIRA REFEITÓRIO,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,quantidade,272,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,valor_unitario,1.0,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,lote,1,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,item,1,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,nome do produto,9 LONGARINA ESTOFADA COM 03 LUGARES- ESPERA,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,quantidade,110,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,valor_unitario,1.0,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,3,lote,1,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,3,item,3,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,3,nome do produto,CADEIRA GIRATÓRIA GERENCIA,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,3,quantidade,322,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,3,valor_unitario,1.0,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,4,lote,1,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,4,item,4,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,4,nome do produto,CADEIRA GIRATÓRIA COM APOIODECABEÇA,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,4,quantidade,410,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,4,valor_unitario,1.0,80,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,7,lote,1,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,7,item,7,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,7,nome do produto,CADEIRA GIRATÓRIA ACESSIBILIDADE OBESO,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,7,quantidade,126,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,7,valor_unitario,1.0,81,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,10,lote,1,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,10,item,10,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,10,nome do produto,CADEIRA TIPO LONGARINAMETAL COM 03 LUGARES- ESPERA,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,10,quantidade,117,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,10,valor_unitario,1.0,82,,tabela,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,1,normas_técnicas,ABNTNBR 10; ABNTNBR 11003; ABNTNBR 17088; ABNTNBR 8095; ABNTNBR 8096; ISO 14024,23,,cabeçalho,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,3,normas_técnicas,ABNTNBR 10; ABNTNBR 11003; ABNTNBR 17088; ABNTNBR 8095; ABNTNBR 8096; ISO 14024,23,,cabeçalho,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,4,normas_técnicas,ABNTNBR 10; ABNTNBR 11003; ABNTNBR 17088; ABNTNBR 8095; ABNTNBR 8096; ISO 14024,23,,cabeçalho,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,7,normas_técnicas,ABNTNBR 10; ABNTNBR 11003; ABNTNBR 17088; ABNTNBR 8095; ABNTNBR 8096; ISO 14024,23,,cabeçalho,batch
+77b99c97cd0532f885080fa95faa8ead9b7757036ee2a0e890c2403a97202744,edital 3.pdf,1,10,normas_técnicas,ABNTNBR 10; ABNTNBR 11003; ABNTNBR 17088; ABNTNBR 8095; ABNTNBR 8096; ISO 14024,23,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,01,lote,,31,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,01,item,01,31,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,01,nome do produto,"SOFÁ MODULAR COM 02 LUGARES SEM BRAÇOS Estrutura cuja vista lateral se assemelha a um trapézio ou a um retângulo, com a",31,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,01,quantidade,10,31,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,01,valor_unitario,4895.17,31,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,02,lote,,32,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,02,item,02,32,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,02,nome do produto,SOFÁ MODULAR COM 01 LUGAR SEM BRAÇOS Estrutura do ti po trapezoidal em tubo de aço carbono de seção redonda com,32,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,02,quantidade,15,32,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,02,valor_unitario,1847.5,32,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,03,lote,,33,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,03,item,03,33,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,03,nome do produto,"MÓDULO CIRCULAR OU SEMICIRCULAR CÔNCAVO, AUTOPORTANTE, COM ENCOSTO E SEM BRAÇOS. Estrutura do ti po trapezoidal em tubo",33,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,03,quantidade,5,33,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,03,valor_unitario,2534.67,33,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,04,lote,,34,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,04,item,04,34,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,04,nome do produto,SOFÁ COM 02 LUGARES COM BRAÇOS,34,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,04,quantidade,10,34,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,04,valor_unitario,4757.08,34,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,05,lote,,36,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,05,item,05,36,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,05,nome do produto,SOFÁ COM 01 LUGAR COM BRAÇOS Estrutura do tipo trapezoidal em tubo de aço carbono de seção redonda com diâmetro de,36,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,05,quantidade,25,36,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,05,valor_unitario,2716.75,36,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,06,lote,,37,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,06,item,06,37,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,06,nome do produto,SOFÁ MODULAR DE CANTO COM 01 LUGAR Estrutura do tipo trapezoidal em tubo de aço carbono de seção redonda com diâmetro,37,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,06,quantidade,4,37,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,06,valor_unitario,2117.25,37,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,07,lote,,38,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,07,item,07,38,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,07,nome do produto,SOFÁ COM 01 LUGAR AMAMENTAÇÃO Estruturado em painel de compensado e perfis tubulares de aço que formam a estruturação,38,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,07,quantidade,5,38,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,07,valor_unitario,3495.0,38,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,08,lote,,40,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,08,item,08,40,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,08,nome do produto,"POLTRONA FIXA Confeccionada com assento, encosto e braços finalizados e com quadro ou alma estrutural em formato de",40,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,08,quantidade,20,40,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,08,valor_unitario,1495.28,40,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,09,lote,,43,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,09,item,09,43,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,09,nome do produto,"POLTRONA GIRATÓRIA Confeccionada c om assento, encosto e braços finalizados e com quadro ou alma estrutural em formato",43,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,09,quantidade,15,43,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,09,valor_unitario,1784.17,43,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,10,lote,,45,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,10,item,10,45,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,10,nome do produto,"ESTANTE MULTIUSO E DECORATIVA Estrutura de aço tubular de seção circular de diâmetro mínimo de 19,05 mm (3/4”) e",45,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,10,quantidade,10,45,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,10,valor_unitario,3685.0,45,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,11,lote,,46,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,11,item,11,46,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,11,nome do produto,"MESA BAIXA DE APOIO MULTIUSO Estrutura tubular tipo trapezoidal constituída por tubos de 12,7 mm de diâmetro e 1,5 mm",46,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,11,quantidade,12,46,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,11,valor_unitario,686.0,46,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,12,lote,,47,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,12,item,12,47,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,12,nome do produto,"MESA MÉDIA DE APOIO MULTIUSO Estrutura tubular tipo trapezoidal constituída por tubos de 12,7 mm de diâmetro e 1,5 mm",47,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,12,quantidade,12,47,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,12,valor_unitario,758.89,47,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,13,lote,,48,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,13,item,13,48,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,13,nome do produto,SOFÁ MODULAR COM 01 LUGAR SEM BRAÇOS Estrutura do tipo trapezoidal em tubo de aço carbono de seção redonda com diâmetro,48,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,13,quantidade,5,48,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,13,valor_unitario,1847.5,48,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,14,lote,,49,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,14,item,14,49,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,14,nome do produto,SOFÁ COM 01 LUGAR COM BRAÇOS Estrutura do tipo trapezoidal em tubo de aço carbono de seção redonda com diâmetro de,49,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,14,quantidade,5,49,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,14,valor_unitario,2716.75,49,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,15,lote,,50,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,15,item,15,50,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,15,nome do produto,"POLTRONA FIXA Confeccionada com assento, encosto e braços finalizados e com quadro ou alma estrutural em formato de",50,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,15,quantidade,5,50,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,15,valor_unitario,1495.28,50,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,16,lote,,52,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,16,item,16,52,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,16,nome do produto,"POLTRONA GIRATÓRIA Confeccionada com assento, encosto e braços finalizados e com quadro ou alma estrutural em formato",52,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,16,quantidade,5,52,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,16,valor_unitario,1784.17,52,,tabela,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,01,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,02,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,03,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,04,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,05,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,06,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,07,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,08,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,09,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,10,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,11,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,12,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,13,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,14,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,15,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+8595586ba2865089fde08ed3450c49dd747c9cf30f04e0d229203cf037774303,edital13.pdf,,16,normas_técnicas,ABNT NBR 15164,27,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,1,lote,9,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,1,item,1,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,1,nome do produto,POLTRONA COURSE GIRATÓRIA 30 X O,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,1,quantidade,1,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,1,valor_unitario,395000.0,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,2,lote,9,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,2,item,2,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,2,nome do produto,"CADEIRA GIRATÓRIA, DIGITADOR, ESPALDAR MÉDIO EM TECIDO VINILICO 200 X O",98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,2,quantidade,1,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,2,valor_unitario,395000.0,98,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,4,lote,9,99,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,4,item,4,99,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,4,nome do produto,CADEIRA FIXA INDIVIDUAL 600 X O,99,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,4,quantidade,1,99,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,4,valor_unitario,395000.0,99,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,9,lote,9,102,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,9,item,9,102,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,9,nome do produto,CADEIRA GIRATÓRIA COM PRANCHETA 500 X O,102,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,9,quantidade,1,102,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,9,valor_unitario,395000.0,102,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,10,lote,9,103,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,10,item,10,103,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,10,nome do produto,ESTANTE PARA BIBLIOTECA FACE SIMPLES 10 X O,103,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,10,quantidade,1,103,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,10,valor_unitario,395000.0,103,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,14,lote,9,104,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,14,item,14,104,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,14,nome do produto,MESA EM ALUMÍNIO RIPADO 30 X O,104,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,14,quantidade,1,104,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,14,valor_unitario,395000.0,104,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,16,lote,9,105,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,16,item,16,105,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,16,nome do produto,POLTRONA OCA 50 X O,105,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,16,quantidade,1,105,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,16,valor_unitario,395000.0,105,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,24,lote,9,109,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,24,item,24,109,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,24,nome do produto,CADEIRA SEM BRAÇO 120 X O,109,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,24,quantidade,1,109,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,24,valor_unitario,395000.0,109,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,29,lote,9,111,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,29,item,29,111,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,29,nome do produto,MESA ARTICULADA COM TAMPO TRAPEZOIDAL 200 X O,111,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,29,quantidade,1,111,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,29,valor_unitario,395000.0,111,,tabela,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,1,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,1,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,2,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,2,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,4,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,4,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,9,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,9,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,10,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,10,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,14,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,14,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,16,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,16,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,24,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,24,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,29,garantia,5,57,,cabeçalho,batch
+6c59e93b68f54c9173ae0cac81d224c27adcd3d1159417aa73fa025d367dcb14,edital 4.pdf,9,29,normas_técnicas,ISO 14020; ISO 4628; NBR 1396; NBR 17088; NBR 5841,46,,cabeçalho,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,75,lote,1,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,75,item,75,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,75,nome do produto,VENTILADOR 30 CM DE MESA VENTILADOR 30 CM DE MESA,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,75,quantidade,2,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,75,valor_unitario,165.51,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,76,lote,1,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,76,item,76,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,76,nome do produto,VENTILADOR 40 CM DE MESA VENTILADOR 40 CM DE MESA,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,76,quantidade,5,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,76,valor_unitario,330.16,90,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,78,lote,1,91,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,78,item,78,91,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,78,nome do produto,VENTILADOR 50 CM DE MESA VENTILADOR 50 CM DE MESA,91,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,78,quantidade,6,91,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,78,valor_unitario,538.53,91,,tabela,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,75,garantia,6,42,,cabeçalho,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,76,garantia,6,42,,cabeçalho,batch
+a4e39596802bcda737a14d93aff50b8dd399b2a963cf673445293192e500d3d5,edital 6.pdf,1,78,garantia,6,42,,cabeçalho,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,8,lote,,6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,8,item,8,6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,8,nome do produto,"UN CADEIRA ERGONÔMICA GIRATÓRIA TIPO GAMER OU EQUIVALENTE Cadeira ergonômica giratória nova, original de fábrica",6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,8,quantidade,12,6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,9,lote,,6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,9,item,9,6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,9,nome do produto,UN CADEIRA ERGONÔMICA EXECUTIVA GIRATÓRIA COM APOIO PARA OS PÉS OU EQUIVALENTE. a) Estrutura reforçada em aço ou,6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,9,quantidade,2,6,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,14,lote,,10,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,14,item,14,10,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,14,nome do produto,UN SCANNER DE MESA (DIGITALIZADOR). a) Scanner deve possuir registro e homologação na ANATEL (quando aplicável). b),10,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,14,quantidade,2,10,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,15,lote,,11,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,15,item,15,11,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,15,nome do produto,"UN TABLET TELA 11'', a) Tipo de equipamento: Tablet com conectividade móvel e Wi-Fi; b) Sistema operacional: Android",11,,tabela,batch
+d01ed506ba82f9102796c808245216d50e86a51c4105841a231da2010af5f855,edital18.pdf,,15,quantidade,2,11,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,02,lote,,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,02,item,02,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,02,nome do produto,REMOVIVEIS; GAVETEIRO/GAVETA: SEM GAVETEIRO; DIMENSOES: 800 X 600 X,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,02,quantidade,600,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,06,lote,,15,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,06,item,06,15,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,06,nome do produto,CADEIRA PARA ESCRITORIO,15,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,06,quantidade,16,15,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,10,lote,,16,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,10,item,10,16,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,10,nome do produto,CADEIRA/POLTRONA PLASTICA,16,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,10,quantidade,1,16,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,16,lote,,17,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,16,item,16,17,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,16,nome do produto,GAVETEIRO USO ESCRITORIO,17,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,16,quantidade,580,17,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,18,lote,,18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,18,item,18,18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,18,nome do produto,MESA PARA REUNIAO,18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,18,quantidade,102,18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,23,lote,,20,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,23,item,23,20,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,23,nome do produto,CADEIRA,20,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,23,quantidade,3,20,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,25,lote,,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,25,item,25,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,25,nome do produto,MESA PARA ESCRITORIO,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,25,quantidade,25,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,45,lote,,14,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,45,item,45,14,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,45,nome do produto,"CM. 1,00 UNIDADE 1.134 05 1742957 CADEIRA PARA ESCRITORIO",14,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,45,quantidade,1,14,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,50,lote,,18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,50,item,50,18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,50,nome do produto,"X 30 MM EM CHAPA 18; TAMPO: MDF REVESTIDO COM LAMINA DE MADEIRA; DIMENSOES: 1,15 M (DIAMETRO) X 74 CM (ALTURA); MESA DE",18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,50,quantidade,4,18,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,7,40,lote,7,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,7,40,item,40,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,7,40,nome do produto,MM ( L X P X A ); MESA RETANGULAR TIPO AUXILIAR; MEDINDO 800 MM LARGURA X 600 MM PROFUNDIDADE X 740 MM ALTURA; TAMPO EM,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,7,40,quantidade,2,21,,tabela,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,02,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,06,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,10,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,16,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,18,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,23,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,25,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,45,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,,50,normas_técnicas,NR 24,14,,cabeçalho,batch
+969cb78213dd11dc51174b70bac2cb49170ff388510ddc1bceb9bc210cc1fc38,edital 8.pdf,7,40,normas_técnicas,NR 24,14,,cabeçalho,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,10,lote,,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,10,item,10,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,10,nome do produto,Sofá tipo Le Corbusier 3 lugares Sofá tipo Le Corbusier; em formato retangular; para 03 (três) lugares; com braços,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,10,quantidade,618,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,10,valor_unitario,2967.95,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,lote,,10,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,item,11,10,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,nome do produto,"Mesa de trabalho, 1400x750 com gaveteiro Tampo superior confeccionado com chapa de partículas de madeira de média",10,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,quantidade,784,10,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,valor_unitario,1312.0,10,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,lote,,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,item,11,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,nome do produto,"Sofá tipo Le Corbusier 1 lugar Sofá tipo Le Corbusier; em formato retangular; para 01 (um) lugar; com braços, assendo e",12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,quantidade,4,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,valor_unitario,1523.37,12,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,12,lote,,11,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,12,item,12,11,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,12,nome do produto,Mesa de reunião redonda com estrutura em aço Tampo superior confeccionado com chapa de partículas de madeira de média,11,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,12,quantidade,909,11,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,12,valor_unitario,966.95,11,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,lote,,14,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,item,14,14,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,nome do produto,de 3213 Armário Alto Fechado com 04 Prateleiras 03 Móveis e 01 Fixa. Tampo superior confeccionado com chapa de,14,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,quantidade,10,14,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,valor_unitario,1891.0,14,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,lote,,15,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,item,14,15,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,nome do produto,"Armário Baixo fechado com 02 portas, 750x800x500mm Armário baixo Fechado com 01 Prateleira. Tampo superior",15,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,quantidade,266,15,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,valor_unitario,980.22,15,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,15,lote,,16,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,15,item,15,16,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,15,nome do produto,"Armário Alto fechado com 02 portas, 1800x800x500mm Armário Extra Alto Fechado com 04 Prateleiras 03 Móveis e 01 Fixa",16,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,15,quantidade,252,16,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,15,valor_unitario,2266.46,16,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,lote,,20,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,item,21,20,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,nome do produto,"Mesa plástica empilhável 700x700x700 Mesa plástica monobloco, empilhável, de 04 lugares, em polipropileno branco",20,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,quantidade,20,20,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,valor_unitario,87.93,20,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,lote,,21,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,item,21,21,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,nome do produto,"de 3222 Mesa dobrável vira-maleta Mesa dobrável, portátil, compacta e multiuso, do tipo vira-maleta. Com alça de",21,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,quantidade,10,21,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,valor_unitario,284.63,21,,tabela,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,10,normas_técnicas,NR 17,2,,cabeçalho,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,11,normas_técnicas,NR 17,2,,cabeçalho,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,12,normas_técnicas,NR 17,2,,cabeçalho,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,14,normas_técnicas,NR 17,2,,cabeçalho,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,15,normas_técnicas,NR 17,2,,cabeçalho,batch
+7af2199ee229702947a851175a0db326205efd0d15faded52a243912bbd15860,edital10.pdf,,21,normas_técnicas,NR 17,2,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,27,lote,,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,27,item,27,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,27,nome do produto,ESTANTE BIN 54 GAVETAS Nº,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,27,quantidade,56,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,29,lote,,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,29,item,29,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,29,nome do produto,ARMÁRIO AÉREO,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,29,quantidade,30,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,30,lote,,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,30,item,30,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,30,nome do produto,CADEIRA DIGITADOR COM BRAÇO,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,30,quantidade,60,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,31,lote,,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,31,item,31,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,31,nome do produto,CADEIRA DIGITADOR SEM BRAÇO,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,31,quantidade,50,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,32,lote,,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,32,item,32,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,32,nome do produto,MESA REDONDA COM 4 CADEIRAS,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,32,quantidade,25,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,33,lote,,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,33,item,33,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,33,nome do produto,CADEIRA SECRETÁRIA FIXA 4 PÉS,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,33,quantidade,100,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,34,lote,,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,34,item,34,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,34,nome do produto,MESA AUXILIAR,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,34,quantidade,30,43,,tabela,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,27,garantia,12,50,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,27,normas_técnicas,NBR 16308,54,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,29,garantia,12,50,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,29,normas_técnicas,NBR 16308,54,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,30,garantia,12,50,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,30,normas_técnicas,NBR 16308,54,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,31,garantia,12,50,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,31,normas_técnicas,NBR 16308,54,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,32,garantia,12,50,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,32,normas_técnicas,NBR 16308,54,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,33,garantia,12,50,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,33,normas_técnicas,NBR 16308,54,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,34,garantia,12,50,,cabeçalho,batch
+88e8555310d2268459742a285de5b6f70645c1b760898a28d7fa47491f121eeb,edital16.pdf,,34,normas_técnicas,NBR 16308,54,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,lote,,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,item,1,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,nome do produto,"ESTANTE MADEIRA ALTA, MDP, 04 PRATELEIRAS, COR ARGILA, EMBALAGEM",15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,quantidade,4,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,lote,,18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,item,1,18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,nome do produto,"ESTANTE DE MADEIRA ALTA Estante de madeira alta com tampo em MDP cor argila de 25 mm de espessura, revestido em",18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,quantidade,4,18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,lote,,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,item,2,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,nome do produto,"ARMÁRIO ALTO, 02 PORTAS, 03 PRATELEIRAS, MDP, EMBALAGEM 1. UND",15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,quantidade,0,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,lote,,18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,item,2,18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,nome do produto,ARMÁRIO ALTO COM 02 PORTAS E 03 PRATELEIRAS Medidas aproximadas: largura 900 mm (L); profundidade: 490 mm (P); altura,18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,quantidade,42,18,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,lote,,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,item,3,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,nome do produto,"MESA PARA IMPRESSORA, MDF COR ARGILA, EMBALAGEM 1. UND",15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,quantidade,0,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,lote,,19,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,item,3,19,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,nome do produto,"MESA PARA IMPRESSORA Mesa para apoio de impressora com dimensões 0,70m (largura) x 0,50 m ( profundidade), admitindo",19,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,quantidade,42,19,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,lote,,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,item,4,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,nome do produto,"MESA REUNIÃO, GRANDE, OVAL, 10 LUGARES, MDF, MDP, COR ARGILA, EMBALAGEM 1. UND",15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,quantidade,0,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,lote,,20,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,item,4,20,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,nome do produto,"MESA REUNIÃO GRANDE OVAL 10 LUGARES Mesa de Reunião com tampo formato oval com dimensões mínimas de 2,50m (comprimento)",20,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,quantidade,42,20,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,5,lote,,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,5,item,5,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,5,nome do produto,"MESA, CENTRO, AGLOMERADO, LAMINADO MELAMÍNICO, EMBALAGEM 1. UND",15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,5,quantidade,0,15,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,7,lote,,21,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,7,item,7,21,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,7,nome do produto,"ESTAÇÃO DE TRABALHO EM L Estação de trabalho em L, integrada, com dimensões 1,40m x 1,40m (lados maiores) x 0,60m",21,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,7,quantidade,42,21,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,8,lote,,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,8,item,8,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,8,nome do produto,"MESA, PLÁSTICO POLIPROPILENO RÍGIDO, QUADRADA, TIPO MONOBLOCO, EMBALAGEM 1. .UND",16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,8,quantidade,0,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,lote,,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,item,9,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,nome do produto,"CADEIRA, PLÁSTICO POLIPROPILENO RÍGIDO, SEM BRAÇO, TIPO MONOBLOCO, EMBALAGEM 1. .UND. 20.000 GRUPO",16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,quantidade,0,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,lote,,22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,item,9,22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,nome do produto,"CADEIRA MONOBLOCO SEM BRAÇO Cadeira monobloco branca sem braço, deve ter estrutura resistente produzida com matéria",22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,quantidade,76,22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,lote,,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,item,10,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,nome do produto,"POLTRONA, AUDITÓRIO, ASSENTO REBATÍVEL, ENCOSTO FIXO, PRANCHETA ESCAMOTEÁVEL, EMBALAGEM 1. .UND",16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,quantidade,0,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,lote,,22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,item,10,22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,nome do produto,"POLTRONA AUDITÓRIO, COM ASSENTO REBATÍVEL E ENCOSTO FIXO COM PRANCHETA ESCAMOTEÁVEL Dimensões aproximadas: extensão",22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,quantidade,42,22,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,lote,,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,item,11,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,nome do produto,"POLTRONA, AUDITÓRIO, ASSENTO REBATÍVEL, ENCOSTO FIXO, PRANCHETA ESCAMOTEÁVEL, OBESOS, EMBALAGEM UND. 100 Pregão",16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,quantidade,42,16,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,lote,,24,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,item,11,24,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,nome do produto,"POLTRONA PARA AUDITÓRIO, COM ASSENTO REBATÍVEL E ENCOSTO FIXO COM PRANCHETA ESCAMOTEÁVEL PARA PESSOA OBESA Encosto e",24,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,quantidade,42,24,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,lote,,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,item,12,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,nome do produto,"ESTANTE, BIBLIOTECA, CHAPA DE AÇO, COR CINZA, EMBALAGEM 1. UND",17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,quantidade,0,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,lote,,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,item,12,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,nome do produto,ESTANTE PARA LIVROS,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,quantidade,225,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,lote,,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,item,13,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,nome do produto,"ESTANTES VAZADAS, AÇO, 6 PRATELEIRAS, COR CINZA, EMBALAGEM 1. D",17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,quantidade,0,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,lote,,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,item,13,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,nome do produto,ESTANTES AÇO VAZADA Pregão Eletrônico nº 20250042-SEDUC/COGEA/CEASE,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,quantidade,42,25,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,lote,,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,item,16,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,nome do produto,"CONJUNTO REFEITÓRIO, ABS/AÇO, COMP. 01 MESA DOBRÁVEL C/ TAMPO OVAL E 06 CADEIRAS, EMBALAGEM 1.0 CONJUNTO. COMPRASNET",17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,quantidade,42,17,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,lote,,26,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,item,16,26,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,nome do produto,CONJUNTO DE REFEITÓRIO COM MESA COM PÉS DOBRÁVEIS COM TAMPO INJETADO EM TERMOPLÁSTICO À BASE DE ABS COM 6 CADEIRAS,26,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,quantidade,42,26,,tabela,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,1,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,2,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,3,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,4,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,5,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,7,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,8,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,9,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,10,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,11,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,12,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,13,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+96ad46b53b3c09f77bd5070df7820c8bd115b90ea38c83b4d795805d9a08f927,edital14.pdf,,16,normas_técnicas,ABNT NBR 13,8,,cabeçalho,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,1,lote,,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,1,item,1,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,1,nome do produto,ArmárioaltofechadocomtamposuperioremMDPcomespessurade 25mmrevestidoemlaminadomelamínicodebaixapressão,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,1,quantidade,20,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,2,lote,,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,2,item,2,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,2,nome do produto,"ArmárioRouperio4colunas4portas.Roupeiroemaçocom16portas produzidoemaçochapa26/0,45mmtratadacomantiferruginosopor",22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,2,quantidade,10,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,3,lote,,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,3,item,3,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,3,nome do produto,Armáriodeaço2portascomreforçointernoemcadaumaecom4 prateleirassendo01fixaparatravamentodasportase03reguláveisa,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,3,quantidade,53,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,4,lote,,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,4,item,4,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,4,nome do produto,Armáriodeaço2portascomreforçointernoemcadaumaecom4 prateleirassendo01fixaparatravamentodasportase03reguláveisa,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,4,quantidade,17,22,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,5,lote,,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,5,item,5,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,5,nome do produto,"ArmárioRoupeiroemaçocom12portasproduzidoemaçochapa26/ 0,45mmtratadacomantiferruginosoporfosfatizaçãoepinturaepóxi",23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,5,quantidade,20,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,6,lote,,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,6,item,6,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,6,nome do produto,"ArmárioRoupeiroemaçocom32portas,4colunase8portas, produzidoemaçochapa26/0,45mmtratadacomantiferruginosopor",23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,6,quantidade,10,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,7,lote,,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,7,item,7,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,7,nome do produto,Armáriodesegurançadestinadoaoarmazenamentodeprodutos inflamáveis:Característicasmínimasexigidas:MaterialeEstrutura,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,7,quantidade,15,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,8,lote,,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,8,item,8,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,8,nome do produto,Armáriodesegurançadestinadoaoarmazenamentodeprodutos inflamáveis:Característicasmínimasexigidas:MaterialeEstrutura,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,8,quantidade,5,23,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,9,lote,,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,9,item,9,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,9,nome do produto,Armáriomultiusocomestrutura100%emMDFcomnomínimo15mm efundocom3mm.2portasnosistemadeabrir(bater)compuxadores,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,9,quantidade,40,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,10,lote,,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,10,item,10,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,10,nome do produto,Arquivoemaçocom4gavetasparapastasuspensatamanhoofício. Porta-etiquetaepuxadoresestampadosnasgavetas.Puxadorescom,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,10,quantidade,48,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,12,lote,,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,12,item,12,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,12,nome do produto,"Cadeiraalta(tipocaixafixa).Medidasaproximadasdoassento:41cm largura,33cmprofundidade,50mmespessura.Medidasaproximadas",24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,12,quantidade,15,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,13,lote,,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,13,item,13,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,13,nome do produto,"Cadeirafixasembraçorevestidaemtecidocomassentoeencosto confeccionadocommadeiracompensada,prensadaemformato",24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,13,quantidade,750,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,14,lote,,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,14,item,14,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,14,nome do produto,"Cadeirafixasembraçorevestidaemtecidocomassentoeencosto confeccionadocommadeiracompensada,prensadaemformato",24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,14,quantidade,250,24,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,15,lote,,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,15,item,15,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,15,nome do produto,"Cadeirafixaempilhável,encostoeassentoconfeccionadoem polipropileno(PP)nosistemadeinjeçãotermoplástica.Suportedo",25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,15,quantidade,200,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,16,lote,,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,16,item,16,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,16,nome do produto,"Cadeirafixaempilhável,monobloco,encostoeassentoconfeccionado empolipropileno(PP).Sembraço.Dimensõesmínimas:87cmde",25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,16,quantidade,600,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,17,lote,,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,17,item,17,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,17,nome do produto,Cadeiragiratóriamodelodiretorcomassentoeencostoanatômico confeccionadocommadeira/compensadomultilaminadodenomínimo,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,17,quantidade,225,25,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,18,lote,,26,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,18,item,18,26,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,18,nome do produto,Cadeiragiratóriamodelodiretorcomassentoeencostoanatômico confeccionadocommadeira/compensadomultilaminadodenomínimo,26,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,18,quantidade,75,26,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,23,lote,,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,23,item,23,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,23,nome do produto,"Conjuntoescolarcarteiraecadeiraadulto,tamanhoCJA-06.O conjuntodescritodeveestaremconformidadeeasempresasdevem",27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,23,quantidade,375,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,24,lote,,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,24,item,24,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,24,nome do produto,"Conjuntoescolarcarteiraecadeiraadulto,tamanhoCJA-06.O conjuntodescritodeveestaremconformidadeeasempresasdevem",27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,24,quantidade,125,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,25,lote,,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,25,item,25,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,25,nome do produto,"Estantedeaçocomprateleirasreguláveiseremovíveisatravésde graduaçãocomfurosoblongose/ouquadrados,distanciadosacada",27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,25,quantidade,75,27,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,26,lote,,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,26,item,26,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,26,nome do produto,"Estantedeaçocomprateleirasreguláveiseremovíveisatravésde graduaçãocomfurosoblongose/ouquadrados,distanciadosacada",28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,26,quantidade,25,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,27,lote,,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,27,item,27,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,27,nome do produto,Armáriotipogaveteirovolantecom04gavetasconfeccionadoem MDPcomtampocomespessurade25mmrevestidoemlaminado,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,27,quantidade,20,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,28,lote,,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,28,item,28,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,28,nome do produto,"Conjuntodemóveisincluindoositensabaixo.Todosdeverãoserda mesmalinha/marcaparapadronizaçãodasala,nacornogueira",28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,28,quantidade,38,28,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,29,lote,,29,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,29,item,29,29,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,29,nome do produto,"Conjuntodemóveisincluindoositensabaixo.Todosdeverãoserda mesmalinha/marcaparapadronizaçãodasala,nacornogueira",29,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,29,quantidade,12,29,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,30,lote,,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,30,item,30,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,30,nome do produto,Longarinade3lugaressembraço:AssentoeEncosto:Fabricadosem madeiramultilaminada(compensadonavalousimilardealta,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,30,quantidade,225,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,31,lote,,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,31,item,31,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,31,nome do produto,Longarinade3lugaressembraço:AssentoeEncosto:Fabricadosem madeiramultilaminada(compensadonavalousimilardealta,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,31,quantidade,75,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,32,lote,,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,32,item,32,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,32,nome do produto,"Mesadedesenho,tipoprancheta,modelouniversitário.Fabricadaem madeiraMDFoupinus,comtampoemaglomeradocomacabamento",30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,32,quantidade,30,30,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,33,lote,,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,33,item,33,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,33,nome do produto,Mesaretaretangularcomtamposobrepostoàestrutura confeccionadoemMDPcomespessurade25mmrevestidoem,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,33,quantidade,80,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,34,lote,,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,34,item,34,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,34,nome do produto,Mesaretaretangularcomtamposobrepostoàestrutura confeccionadoemMDPcomespessurade25mmrevestidoem,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,34,quantidade,80,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,35,lote,,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,35,item,35,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,35,nome do produto,"Mesamonobloco,tampoeestruturaemmaterialpolipropileno, empilhável.Medidasmínimas:70cmdecomprimentox70cmde",31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,35,quantidade,20,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,36,lote,,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,36,item,36,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,36,nome do produto,"Mesadereuniãocommedidasde3000x1100x740mm.Tampo confeccionadoemMDPcomespessurade25mm,revestidoem",31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,36,quantidade,10,31,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,37,lote,,32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,37,item,37,32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,37,nome do produto,Mesadereuniãoredondacomtamposobrepostoàestrutura confeccionadoemMDPcomespessurade25mmrevestidoem,32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,37,quantidade,40,32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,38,lote,,32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,38,item,38,32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,38,nome do produto,"Mesadereuniãosemi-ovalmedindo2100x955x740mm(CxPxA), comasduaslateraismenorescomcurvaoval,admitindo-sevariação",32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,38,quantidade,10,32,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,45,lote,,33,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,45,item,45,33,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,45,nome do produto,RackparasaladeestarfabricadoemMDPcomnomínimo15mme resvestimentoemlaminadomelamínico.Capacidadedesuportede,33,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,45,quantidade,5,33,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,46,lote,,33,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,46,item,46,33,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,46,nome do produto,"Sofádedoislugarescomrevestimentoemsímilecouro,material compostoàbaseem50%dealgodãoe50%poliéstereasuperfície",33,,tabela,batch
+54d851e1903067c545509a86daca7ddb78244c4300bb6eaa68eb355b994ea643,EDITAL 2.pdf,,46,quantidade,20,33,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,01,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,01,item,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,01,nome do produto,CADEIRA AMARELA 1ºEF I P/SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,01,quantidade,8,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,02,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,02,item,02,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,02,nome do produto,CADEIRA AZUL 1ºEF I P/SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,02,quantidade,10,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,03,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,03,item,03,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,03,nome do produto,CADEIRA VERDE 1ºEF I P/SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,03,quantidade,8,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,04,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,04,item,04,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,04,nome do produto,CADEIRA VERMELHA 1ºEF I P/SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,04,quantidade,8,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,05,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,05,item,05,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,05,nome do produto,CADEIRA AMARELA 2º AO 4ºA SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,05,quantidade,32,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,06,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,06,item,06,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,06,nome do produto,CADEIRA AZUL 2º AO 4ºA SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,06,quantidade,40,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,07,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,07,item,07,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,07,nome do produto,CADEIRA VERDE 2º AO 4ºA SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,07,quantidade,32,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,08,lote,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,08,item,08,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,08,nome do produto,CADEIRA VERMELHA 2º AO 4ºA SALA REDUZIDA,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,08,quantidade,32,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,01,lote,02,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,01,item,01,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,01,nome do produto,MESA ESCOLAR RETANGULAR 1ºA EF I,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,01,quantidade,34,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,02,lote,02,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,02,item,02,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,02,nome do produto,MESA ESCOLAR RETANGULAR 2º AO 4º ANO,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,02,quantidade,136,20,,tabela,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,01,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,02,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,03,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,04,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,05,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,06,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,07,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,01,08,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,01,garantia,1,20,,cabeçalho,batch
+e2d323a4c3d4e4bfb8a22f6a2e110f26fc276c47f4acb6590d6b729c7c98a008,edital20.pdf,02,02,garantia,1,20,,cabeçalho,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,1,lote,01,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,1,item,1,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,1,nome do produto,"POLTRONA PARA AUDITÓRIO NORMAL (maiores detalhes vide ANEXO MEMORIAL DESCRITIVO 293 196 2.427,50 475.790",22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,1,quantidade,118,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,2,lote,01,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,2,item,2,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,2,nome do produto,POLTRONA PARA AUDITÓRIO P.M.R. (PORTADOR DE MOBILIDADE REDUZIDA) (maiores detalhes vide ANEXO MEMORIAL DESCRITIVO 293,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,2,quantidade,118,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,3,lote,01,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,3,item,3,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,3,nome do produto,"POLTRONA PARA AUDITÓRIO OBESOS (maiores detalhes vide ANEXO MEMORIAL DESCRITIVO 293 03 3.967,32 11.901,96 TOTAL 497.180",22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,3,quantidade,118,22,,tabela,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,1,normas_técnicas,ISO 14020; ISO 14024; ISO 4628; NBR 17088; NBR 5841; NBR 8537; NBR 8754; NBR 9178; NBR 9925,43,,cabeçalho,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,2,normas_técnicas,ISO 14020; ISO 14024; ISO 4628; NBR 17088; NBR 5841; NBR 8537; NBR 8754; NBR 9178; NBR 9925,43,,cabeçalho,batch
+8e27d806a17a94ad95ec06977ccce679fff3f3eaf8425cc14e1650ebc4e64113,edital19.pdf,01,3,normas_técnicas,ISO 14020; ISO 14024; ISO 4628; NBR 17088; NBR 5841; NBR 8537; NBR 8754; NBR 9178; NBR 9925,43,,cabeçalho,batch

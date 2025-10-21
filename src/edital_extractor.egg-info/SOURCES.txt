@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/edital_extractor/__init__.py
+src/edital_extractor/cli.py
+src/edital_extractor/extractors.py
+src/edital_extractor/pipeline.py
+src/edital_extractor/utils.py
+src/edital_extractor/writers.py
+src/edital_extractor.egg-info/PKG-INFO
+src/edital_extractor.egg-info/SOURCES.txt
+src/edital_extractor.egg-info/dependency_links.txt
+src/edital_extractor.egg-info/requires.txt
+src/edital_extractor.egg-info/top_level.txt
