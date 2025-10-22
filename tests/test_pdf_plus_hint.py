@@ -23,3 +23,43 @@ def test_filter_header_with_pdf():
     assert filtered["orgao_codigo"] == "Orgão XYZ"
     assert filtered["processo"] == "123"
     assert filtered["valor_teto"] == ""
+
+
+def test_generate_gt_dataframe_without_hints(monkeypatch, tmp_path):
+    sample_pdf = tmp_path / "sample.pdf"
+    sample_pdf.write_bytes(b"placeholder content")
+
+    class DummyReader:
+        def __init__(self, *_args, **_kwargs):
+            self.pages = [object(), object()]
+
+    records = [
+        pdf_gt.ItemRecord(
+            page=1,
+            lote="01",
+            item="001",
+            nome="CADEIRA GIRATÓRIA",
+            quantidade=10,
+            valor_unitario=123.45,
+            fonte="tabela",
+            priority=1,
+        )
+    ]
+
+    monkeypatch.setattr(pdf_gt, "PdfReader", DummyReader)
+    monkeypatch.setattr(
+        pdf_gt,
+        "extract_pdf_text_lines",
+        lambda *_args, **_kwargs: [(1, ["Item 001 - Cadeira giratória com braço R$ 123,45"])],
+    )
+    monkeypatch.setattr(pdf_gt, "extract_tables", lambda *_args, **_kwargs: [])
+    monkeypatch.setattr(pdf_gt, "compute_sha256", lambda *_args, **_kwargs: "hash123")
+    monkeypatch.setattr(pdf_gt, "extract_regex_records", lambda *_args, **_kwargs: records)
+
+    df = pdf_gt.generate_gt_dataframe(sample_pdf, None, min_score=60, max_pages=0)
+    assert not df.empty
+    assert list(df["item"]) == ["001"]
+    assert df.iloc[0]["filename_pdf"] == "sample.pdf"
+    assert df.iloc[0]["fonte"] == "pdf_tabela"
+    assert df.iloc[0]["valor_unitario"] == "R$ 123,45"
+    assert df.iloc[0]["hint_produto"] == ""

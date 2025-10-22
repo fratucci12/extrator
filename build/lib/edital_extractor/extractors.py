@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 import re
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Sequence, Tuple
-import unicodedata
+from typing import Dict, List, Optional, Tuple
 
-from .utils import MONEY_BR, QTY, UNITS, ITEM_ID, to_money_br, to_quantity_br, row_buffers
+from .utils import MONEY_BR, QTY, UNITS, ITEM_ID, to_int_br, to_money_br, row_buffers
 
 @dataclass
 class ItemRecord:
@@ -12,11 +11,10 @@ class ItemRecord:
     lote: str
     item: str
     nome: Optional[str] = None
-    quantidade: Optional[float] = None
+    quantidade: Optional[int] = None
     valor_unitario: Optional[float] = None
-    fonte: str = "parágrafo"  # "tabela" | "tabela-md" | "parágrafo"
+    fonte: str = "parágrafo"  # "tabela" | "parágrafo"
     priority: int = 999
-    bbox: Optional[Tuple[float, float, float, float]] = None
 
 def _dedup_best(recs: List[ItemRecord]) -> List[ItemRecord]:
     by_key: Dict[Tuple[int, str, str], ItemRecord] = {}
@@ -84,7 +82,7 @@ def heuristic_H1_table_lines(page_no: int, text: str, lote_here: str) -> List[It
         nome_raw = m.group("name").strip()
         nome = re.sub(r"\b\d{5,}\b", "", nome_raw).strip(" -–—:,.;")
         nome = _clean_nome(nome)
-        qtd = to_quantity_br(m.group("qty").strip())
+        qtd = to_int_br(m.group("qty").strip())
         vu = to_money_br(m.group("price").strip())
         recs.append(ItemRecord(page=page_no, lote=str(lote_norm or ""), item=item_norm,
                                nome=nome, quantidade=qtd, valor_unitario=vu,
@@ -94,11 +92,7 @@ def heuristic_H1_table_lines(page_no: int, text: str, lote_here: str) -> List[It
 PAT_ITEM_ROW = re.compile(rf"^\s*-?\s*(?P<item>{ITEM_ID})(?P<rest>.*)$", re.IGNORECASE)
 PAT_QTY_UNIT = re.compile(rf"(?P<qty>{QTY})\s*(?P<unit>{UNITS})", re.IGNORECASE)
 PAT_MONEY = re.compile(rf"(?:R?\$?\s*)({MONEY_BR})", re.IGNORECASE)
-PAT_UNIT_TRAIL = re.compile(
-    r"(?:\b(unidade|un|und|unid|peça|peca|peças|pecas|pc|pcs|pç|pçs|conjunto|kit|jogo|par|"
-    r"caixa|cx|frasco|fr|lata|pacote|pct|kg|g|mg|l|ml|metro|m|centimetro|cm|milimetro|mm)\b\s*)+$",
-    re.IGNORECASE,
-)
+PAT_UNIT_TRAIL = re.compile(r"(?:\b(unidade|un|und|unid|peça|peca|peças|pecas|pc|pcs|pç|pçs|conjunto|kit|jogo|par)\b\s*)+$", re.IGNORECASE)
 
 def heuristic_H2_row_buffer(page_no: int, text: str, lote_here: str) -> List[ItemRecord]:
     recs: List[ItemRecord] = []
@@ -142,33 +136,9 @@ def heuristic_H2_row_buffer(page_no: int, text: str, lote_here: str) -> List[Ite
         if qty_matches:
             qty_m = qty_matches[-1]
             unit = qty_m.group("unit").lower()
-            valid_units = {
-                "un",
-                "un.",
-                "unidade",
-                "und",
-                "pc",
-                "pcs",
-                "cx",
-                "cx.",
-                "caixa",
-                "frasco",
-                "fr",
-                "lata",
-                "pacote",
-                "pct",
-                "pct.",
-                "kg",
-                "g",
-                "mg",
-                "l",
-                "ml",
-                "m",
-                "cm",
-                "mm",
-            }
+            valid_units = {"un", "un.", "unidade", "und"}
             if unit in valid_units:
-                qty_val = to_quantity_br(qty_m.group("qty"))
+                qty_val = to_int_br(qty_m.group("qty"))
                 name_prefix = remainder[:qty_m.start()].strip()
                 tail = remainder[qty_m.end():].strip()
             else:
@@ -178,7 +148,7 @@ def heuristic_H2_row_buffer(page_no: int, text: str, lote_here: str) -> List[Ite
         else:
             simple_qty = re.match(rf"^(?P<qty>{QTY})\b\s*(?P<rest>.*)$", remainder)
             if simple_qty:
-                qty_val = to_quantity_br(simple_qty.group("qty"))
+                qty_val = to_int_br(simple_qty.group("qty"))
                 tail = simple_qty.group("rest").strip()
                 name_prefix = ""
             else:
@@ -252,9 +222,11 @@ def heuristic_H2_row_buffer(page_no: int, text: str, lote_here: str) -> List[Ite
                 segment = tail[max(0, price_start - 40):price_start]
             else:
                 segment = segment[-120:]
-            qty_candidates = re.findall(r"\d{1,4}(?:\.\d{3})*(?:,\d+)?", segment)
+            qty_candidates = re.findall(r"\d{1,3}(?:\.\d{3})*(?:,\d{1,3})?", segment)
             for candidate in reversed(qty_candidates):
-                qty_val = to_quantity_br(candidate)
+                if ',' in candidate:
+                    continue
+                qty_val = to_int_br(candidate)
                 if qty_val:
                     break
 
@@ -300,122 +272,7 @@ def heuristic_H3_item_anchor(page_no: int, text: str, lote_here: str) -> List[It
 
         recs.append(ItemRecord(page=page_no, lote=str(lote_norm or ""), item=item_norm,
                                nome=nome,
-                               quantidade=to_quantity_br(mq.group(1)) if mq else None,
+                               quantidade=to_int_br(mq.group(1)) if mq else None,
                                valor_unitario=to_money_br(mv.group(1)) if mv else None,
                                fonte="parágrafo", priority=3))
-    return _dedup_best(recs)
-
-
-def _split_markdown_tables(markdown: str) -> List[List[str]]:
-    tables: List[List[str]] = []
-    current: List[str] = []
-    inside_code_block = False
-    for line in markdown.splitlines():
-        stripped = line.strip()
-        if stripped.startswith("```"):
-            inside_code_block = not inside_code_block
-            if current:
-                tables.append(current)
-                current = []
-            continue
-        if inside_code_block:
-            continue
-        if stripped.startswith("|") and stripped.count("|") >= 2:
-            current.append(stripped)
-        else:
-            if current:
-                tables.append(current)
-                current = []
-    if current:
-        tables.append(current)
-    return tables
-
-
-def _is_separator_row(cells: Sequence[str]) -> bool:
-    if not cells:
-        return False
-    for cell in cells:
-        if not cell:
-            continue
-        if not re.fullmatch(r"[:\-\s]+", cell):
-            return False
-    return True
-
-
-def _normalize_header_cell(cell: str) -> str:
-    normalized = unicodedata.normalize("NFKD", cell)
-    ascii_only = normalized.encode("ascii", "ignore").decode("ascii")
-    return re.sub(r"[^a-z0-9]", "", ascii_only.lower())
-
-
-def heuristic_markdown_tables(page_no: int, markdown: str, lote_here: str) -> List[ItemRecord]:
-    recs: List[ItemRecord] = []
-    if not markdown:
-        return recs
-
-    for table_lines in _split_markdown_tables(markdown):
-        rows: List[List[str]] = []
-        for line in table_lines:
-            trimmed = line.strip().strip("|")
-            cells = [cell.strip() for cell in trimmed.split("|")]
-            rows.append(cells)
-
-        header: Optional[List[str]] = None
-        data_rows: List[List[str]] = []
-        for row in rows:
-            if not row:
-                continue
-            if _is_separator_row(row):
-                continue
-            if header is None:
-                header = row
-                continue
-            data_rows.append(row)
-
-        if not header or not data_rows:
-            continue
-
-        normalized_headers = [_normalize_header_cell(cell) for cell in header]
-
-        def _find_col(*candidates: str) -> Optional[int]:
-            for idx, header_norm in enumerate(normalized_headers):
-                for candidate in candidates:
-                    if candidate in header_norm:
-                        return idx
-            return None
-
-        idx_item = _find_col("item", "codigo")
-        idx_nome = _find_col("descricao", "descritivo", "produto", "nome")
-        idx_qty = _find_col("quantidade", "qtde", "qtd")
-        idx_vu = _find_col("valorunitario", "precounitario", "unitario", "valorunit")
-
-        if idx_item is None or idx_nome is None:
-            continue
-
-        for row in data_rows:
-            if idx_item >= len(row) or idx_nome >= len(row):
-                continue
-            raw_item = row[idx_item].strip()
-            lote_norm, item_norm = _normalize_item_lote(raw_item, lote_here)
-            nome_raw = _clean_nome(row[idx_nome].strip())
-            qty_val = None
-            price_val = None
-
-            if idx_qty is not None and idx_qty < len(row):
-                qty_val = to_quantity_br(row[idx_qty])
-            if idx_vu is not None and idx_vu < len(row):
-                price_val = to_money_br(row[idx_vu])
-
-            recs.append(
-                ItemRecord(
-                    page=page_no,
-                    lote=str(lote_norm or ""),
-                    item=item_norm,
-                    nome=nome_raw,
-                    quantidade=qty_val,
-                    valor_unitario=price_val,
-                    fonte="tabela-md",
-                    priority=1,
-                )
-            )
     return _dedup_best(recs)

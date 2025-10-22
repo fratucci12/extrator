@@ -9,6 +9,8 @@ src/edital_extractor/__init__.py
 src/edital_extractor/cli.py
 src/edital_extractor/extractors.py
 src/edital_extractor/pipeline.py
+src/edital_extractor/preprocessing.py
+src/edital_extractor/table_extractors.py
 src/edital_extractor/utils.py
 src/edital_extractor/writers.py
 src/edital_extractor.egg-info/PKG-INFO
@@ -18,4 +20,7 @@ src/edital_extractor.egg-info/entry_points.txt
 src/edital_extractor.egg-info/requires.txt
 src/edital_extractor.egg-info/top_level.txt
 tests/test_html_to_unified.py
+tests/test_markdown_extractor.py
 tests/test_pdf_plus_hint.py
+tests/test_preprocessing.py
+tests/test_utils_quantities.py

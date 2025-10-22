@@ -58,25 +58,8 @@ GT_COLUMNS: List[str] = [
     "filename_pdf",
     "pdf_sha256",
     "num_pages",
-    "orgao_codigo",
-    "orgao_nome",
-    "processo",
-    "pregão",
-    "conlicitacao",
-    "etapa",
-    "oc_bb_uasg",
-    "uf",
-    "quadrante",
-    "data_publicacao",
-    "data_hora_disputa",
-    "data_solicitacao",
-    "data_agendamento",
-    "responsavel",
-    "realizado_analise",
     "amostra",
     "catalogo",
-    "valor_teto",
-    "ticket_medio",
     "meses_garantia",
     "lote",
     "item",
@@ -84,10 +67,6 @@ GT_COLUMNS: List[str] = [
     "quantidade",
     "valor_unitario",
     "ampla_concorrencia",
-    "produto_cadastrado",
-    "garantia",
-    "amostra_item",
-    "catalogo_item",
     "normas_tecnicas",
     "pagina",
     "fonte",
@@ -349,67 +328,6 @@ def _attach_header_fields(row_data: Dict[str, str], header: Dict[str, str]) -> N
         row_data[column] = header.get(column, "")
 
 
-def _rows_from_records_without_hints(
-    *,
-    document_id: str,
-    pdf_path: Path,
-    pdf_hash: str,
-    num_pages: int,
-    records: Sequence[ItemRecord],
-    pdf_text_map: Dict[int, List[str]],
-) -> List[Dict[str, str]]:
-    header_empty = {column: "" for column in HEADER_COLUMNS}
-    rows: List[Dict[str, str]] = []
-    seen_keys: Set[Tuple[str, str, int]] = set()
-
-    for rec in records:
-        item_value = (rec.item or "").strip()
-        if not item_value:
-            continue
-        key = ((rec.lote or "").strip(), item_value, rec.page)
-        if key in seen_keys:
-            continue
-        seen_keys.add(key)
-
-        snippet = _build_regex_evidence(rec, pdf_text_map)
-        quantidade = str(rec.quantidade) if rec.quantidade is not None else ""
-        valor_unitario = _format_money_br(rec.valor_unitario)
-        fonte = "pdf_tabela" if rec.fonte == "tabela" else "pdf_text"
-        evidencia_label = "TABELA" if fonte == "pdf_tabela" else "TEXTO"
-        evidencia_payload = snippet or (rec.nome or "")
-        evidencia = (
-            f'{evidencia_label} p.{rec.page} | trecho="{evidencia_payload}"'
-            if evidencia_payload
-            else f"{evidencia_label} p.{rec.page}"
-        )
-
-        row = {
-            "document_id": document_id,
-            "filename_pdf": pdf_path.name,
-            "pdf_sha256": pdf_hash,
-            "num_pages": str(num_pages),
-            "lote": rec.lote or "",
-            "item": item_value,
-            "nome_real": rec.nome or evidencia_payload,
-            "quantidade": quantidade,
-            "valor_unitario": valor_unitario,
-            "ampla_concorrencia": "",
-            "produto_cadastrado": "",
-            "garantia": "",
-            "amostra_item": "",
-            "catalogo_item": "",
-            "normas_tecnicas": "",
-            "pagina": str(rec.page),
-            "fonte": fonte,
-            "evidencia": evidencia,
-            "match_score": "0",
-            "hint_produto": "",
-        }
-        _attach_header_fields(row, header_empty)
-        rows.append(row)
-    return rows
-
-
 def match_from_tables(
     hint: HintRow,
     table_rows: Sequence[TableRow],
@@ -496,36 +414,19 @@ def filter_header_with_pdf(
 
 def generate_gt_dataframe(
     pdf_path: Path,
-    csv_path: Path | None,
+    csv_path: Path,
     *,
     min_score: int,
     max_pages: int,
 ) -> pd.DataFrame:
-    hints: List[HintRow] = []
-    use_hints = False
+    if not csv_path.exists():
+        logger.warning("CSV dica não encontrado para %s", pdf_path.name)
+        return pd.DataFrame(columns=GT_COLUMNS)
 
-    if csv_path is None:
-        logger.info(
-            "CSV dica não fornecido para %s; usando fallback apenas com heurísticas.",
-            pdf_path.name,
-        )
-    else:
-        if not csv_path.exists():
-            logger.warning("CSV dica não encontrado para %s", pdf_path.name)
-            logger.info(
-                "Prosseguindo com fallback heurístico para %s.",
-                pdf_path.name,
-            )
-        else:
-            hints = load_hint_rows(csv_path)
-            if not hints:
-                logger.warning("CSV %s não possui linhas.", csv_path.name)
-                logger.info(
-                    "Prosseguindo com fallback heurístico para %s.",
-                    pdf_path.name,
-                )
-            else:
-                use_hints = True
+    hints = load_hint_rows(csv_path)
+    if not hints:
+        logger.warning("CSV %s não possui linhas.", csv_path.name)
+        return pd.DataFrame(columns=GT_COLUMNS)
 
     if PdfReader is None:  # pragma: no cover - runtime guard
         raise RuntimeError("pypdf precisa estar instalado para o pdf2gt.")
@@ -543,99 +444,79 @@ def generate_gt_dataframe(
     regex_used: Set[Tuple[str, str, int]] = set()
 
     rows: List[Dict[str, str]] = []
-
-    if use_hints:
-        for hint in hints:
-            table_match = match_from_tables(hint, table_rows, min_score=min_score)
-            regex_match = match_from_regex(
-                hint,
-                regex_records,
-                regex_used,
-                pdf_text_map,
-            ) if not table_match[0] else ("", "", "", "", 0)
-            text_match = (
-                match_from_text(hint, pdf_text, min_score=min_score)
-                if not table_match[0] and not regex_match[0]
-                else ("", "", "", "", 0)
-            )
-
-            fonte = "nao_encontrado"
-            evidencia = "NAO_ENCONTRADO"
-            nome_real = ""
-            quantidade = ""
-            valor_unitario = ""
-            ampla_concorrencia = ""
-            pagina = ""
-            match_score = 0
-
-            if table_match[0]:
-                fonte = "pdf_tabela"
-                evidencia = f'TABELA p.{table_match[4]} | linha="{table_match[0]}"'
-                nome_real = table_match[0]
-                quantidade = table_match[1]
-                valor_unitario = table_match[2]
-                ampla_concorrencia = table_match[3]
-                pagina = str(table_match[4]) if table_match[4] else ""
-                match_score = fuzz.token_set_ratio(table_match[0], hint.combined_hint or hint.produto)
-            elif regex_match[0]:
-                fonte = "regex_pdf"
-                evidencia = f'REGEX p.{regex_match[4]} | trecho="{regex_match[0]}"'
-                nome_real = regex_match[0]
-                quantidade = regex_match[1]
-                valor_unitario = regex_match[2]
-                ampla_concorrencia = regex_match[3]
-                pagina = str(regex_match[4]) if regex_match[4] else ""
-                match_score = fuzz.token_set_ratio(regex_match[0], hint.combined_hint or hint.produto)
-            elif text_match[0]:
-                fonte = "pdf_text"
-                evidencia = f'TEXTO p.{text_match[4]} | trecho="{text_match[0]}"'
-                nome_real = text_match[0]
-                quantidade = text_match[1]
-                valor_unitario = text_match[2]
-                ampla_concorrencia = text_match[3]
-                pagina = str(text_match[4]) if text_match[4] else ""
-                match_score = fuzz.token_set_ratio(text_match[0], hint.combined_hint or hint.produto)
-
-            header_values = filter_header_with_pdf(hint.header, pdf_text) if pdf_text else hint.header
-
-            row = {
-                "document_id": document_id,
-                "filename_pdf": pdf_path.name,
-                "pdf_sha256": pdf_hash,
-                "num_pages": str(num_pages),
-                "lote": hint.lote,
-                "item": hint.item,
-                "nome_real": nome_real,
-                "quantidade": quantidade,
-                "valor_unitario": valor_unitario,
-                "ampla_concorrencia": ampla_concorrencia,
-                "produto_cadastrado": "",
-                "garantia": "",
-                "amostra_item": "",
-                "catalogo_item": "",
-                "normas_tecnicas": "",
-                "pagina": pagina,
-                "fonte": fonte,
-                "evidencia": evidencia,
-                "match_score": str(match_score),
-                "hint_produto": hint.combined_hint,
-            }
-            _attach_header_fields(row, header_values)
-            rows.append(row)
-    else:
-        rows.extend(
-            _rows_from_records_without_hints(
-                document_id=document_id,
-                pdf_path=pdf_path,
-                pdf_hash=pdf_hash,
-                num_pages=num_pages,
-                records=regex_records,
-                pdf_text_map=pdf_text_map,
-            )
+    for hint in hints:
+        table_match = match_from_tables(hint, table_rows, min_score=min_score)
+        regex_match = match_from_regex(
+            hint,
+            regex_records,
+            regex_used,
+            pdf_text_map,
+        ) if not table_match[0] else ("", "", "", "", 0)
+        text_match = (
+            match_from_text(hint, pdf_text, min_score=min_score)
+            if not table_match[0] and not regex_match[0]
+            else ("", "", "", "", 0)
         )
 
-    if not rows:
-        return pd.DataFrame(columns=GT_COLUMNS)
+        fonte = "nao_encontrado"
+        evidencia = "NAO_ENCONTRADO"
+        nome_real = ""
+        quantidade = ""
+        valor_unitario = ""
+        ampla_concorrencia = ""
+        pagina = ""
+        match_score = 0
+
+        if table_match[0]:
+            fonte = "pdf_tabela"
+            evidencia = f'TABELA p.{table_match[4]} | linha="{table_match[0]}"'
+            nome_real = table_match[0]
+            quantidade = table_match[1]
+            valor_unitario = table_match[2]
+            ampla_concorrencia = table_match[3]
+            pagina = str(table_match[4]) if table_match[4] else ""
+            match_score = fuzz.token_set_ratio(table_match[0], hint.combined_hint or hint.produto)
+        elif regex_match[0]:
+            fonte = "regex_pdf"
+            evidencia = f'REGEX p.{regex_match[4]} | trecho="{regex_match[0]}"'
+            nome_real = regex_match[0]
+            quantidade = regex_match[1]
+            valor_unitario = regex_match[2]
+            ampla_concorrencia = regex_match[3]
+            pagina = str(regex_match[4]) if regex_match[4] else ""
+            match_score = fuzz.token_set_ratio(regex_match[0], hint.combined_hint or hint.produto)
+        elif text_match[0]:
+            fonte = "pdf_text"
+            evidencia = f'TEXTO p.{text_match[4]} | trecho="{text_match[0]}"'
+            nome_real = text_match[0]
+            quantidade = text_match[1]
+            valor_unitario = text_match[2]
+            ampla_concorrencia = text_match[3]
+            pagina = str(text_match[4]) if text_match[4] else ""
+            match_score = fuzz.token_set_ratio(text_match[0], hint.combined_hint or hint.produto)
+
+        header_values = filter_header_with_pdf(hint.header, pdf_text) if pdf_text else hint.header
+
+        row = {
+            "document_id": document_id,
+            "filename_pdf": pdf_path.name,
+            "pdf_sha256": pdf_hash,
+            "num_pages": str(num_pages),
+            "lote": hint.lote,
+            "item": hint.item,
+            "nome_real": nome_real,
+            "quantidade": quantidade,
+            "valor_unitario": valor_unitario,
+            "ampla_concorrencia": ampla_concorrencia,
+            "normas_tecnicas": "",
+            "pagina": pagina,
+            "fonte": fonte,
+            "evidencia": evidencia,
+            "match_score": str(match_score),
+            "hint_produto": hint.combined_hint,
+        }
+        _attach_header_fields(row, header_values)
+        rows.append(row)
 
     df = pd.DataFrame(rows, columns=GT_COLUMNS).fillna("")
     return df
@@ -643,13 +524,13 @@ def generate_gt_dataframe(
 
 def process_pdf_file(
     pdf_path: Path,
-    csv_dir: Path | None,
+    csv_dir: Path,
     out_dir: Path,
     *,
     min_score: int,
     max_pages: int,
 ) -> Path:
-    csv_path = (csv_dir / f"{pdf_path.stem}.csv") if csv_dir is not None else None
+    csv_path = csv_dir / f"{pdf_path.stem}.csv"
     df = generate_gt_dataframe(pdf_path, csv_path, min_score=min_score, max_pages=max_pages)
     out_path = out_dir / f"{pdf_path.stem}_GT.csv"
     df.to_csv(out_path, index=False, encoding="utf-8")
@@ -657,14 +538,14 @@ def process_pdf_file(
     return out_path
 
 
-def _parallel_worker(args: Tuple[Path, Optional[Path], Path, int, int]) -> Path:
+def _parallel_worker(args: Tuple[Path, Path, Path, int, int]) -> Path:
     pdf_path, csv_dir, out_dir, min_score, max_pages = args
     return process_pdf_file(pdf_path, csv_dir, out_dir, min_score=min_score, max_pages=max_pages)
 
 
 def run_pipeline(
     pdf_dir: Path | str,
-    csv_dir: Path | str | None,
+    csv_dir: Path | str,
     out_dir: Path | str,
     *,
     merge: bool,
@@ -673,7 +554,7 @@ def run_pipeline(
     jobs: Optional[int] = None,
 ) -> List[Path]:
     pdf_dir_path = Path(pdf_dir)
-    csv_dir_path = Path(csv_dir) if csv_dir is not None else None
+    csv_dir_path = Path(csv_dir)
     out_dir_path = ensure_directory(out_dir)
 
     pdf_files = list_pdf_files(pdf_dir_path)
@@ -726,10 +607,7 @@ def build_argument_parser() -> argparse.ArgumentParser:
         description="Gera Ground Truth a partir de PDFs usando CSVs como dica."
     )
     parser.add_argument("--pdf-dir", required=True, help="Diretório com arquivos PDF")
-    parser.add_argument(
-        "--csv-dir",
-        help="Diretório com CSVs gerados pelo html2csv (opcional para fallback sem hints)",
-    )
+    parser.add_argument("--csv-dir", required=True, help="Diretório com CSVs gerados pelo html2csv")
     parser.add_argument("--out-dir", required=True, help="Diretório de saída para os GTs")
     parser.add_argument("--merge", action="store_true", help="Gera GT_merged.csv com todas as linhas")
     parser.add_argument(

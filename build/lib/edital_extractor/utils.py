@@ -3,13 +3,8 @@ import re
 from typing import Dict, List, Optional
 
 MONEY_BR = r"\d{1,3}(?:\.\d{3})*(?:,\d{2})?"
-QTY = r"\d{1,4}(?:\.\d{3})*(?:,\d+)?"
-UNITS = (
-    r"(?:unidade|un|und|unid|unid\.?|und\.?|un\.?|pc|pcs|pç|pçs|peça|peca|peças|pecas|"
-    r"conjunto|kit|jogo|par|caixa|cx|cx\.?|frasco|fr|lata|pacote|pct|pct\.?|rolo|"
-    r"cartucho|galão|galao|gal|litro|l|ml|metro|m|centimetro|cm|milimetro|mm|kg|g|mg|"
-    r"saco|pote|balde)"
-)
+QTY = r"\d{1,3}(?:\.\d{3})*(?:,\d{1,3})?"
+UNITS = r"(?:unidade|un|und|unid|unid\.?|und\.?|un\.?|pc|pcs|pç|pçs|peça|peca|peças|pecas|conjunto|kit|jogo|par)"
 ITEM_ID = r"\d{1,4}(?:[\.\-]\d{1,4})*"
 
 def normalize_pdf_text(t: str) -> str:
@@ -41,18 +36,6 @@ def to_money_br(s: str):
         return float(s) if s else None
     except Exception:
         return None
-
-def to_quantity_br(s: str):
-    s = _norm_num(s)
-    try:
-        if not s:
-            return None
-        value = float(s)
-    except Exception:
-        return None
-    if abs(value - round(value)) < 1e-6:
-        return int(round(value))
-    return value
 
 PAT_LOTE = re.compile(r"\bLote\b\s*[:\-]?\s*([0-9A-Za-z\-\.]+)", re.IGNORECASE)
 

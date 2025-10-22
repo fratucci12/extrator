@@ -13,16 +13,9 @@ from .extractors import (
     heuristic_H2_row_buffer,
     heuristic_H3_item_anchor,
     ItemRecord,
-    heuristic_markdown_tables,
 )
-from .preprocessing import markdown_by_page, build_page_slices
-from .table_extractors import extract_items_from_tables
 
 import re
-import textwrap
-
-DEBUG_REGEX = os.environ.get("EXTRATOR_DEBUG_REGEX")
-DEBUG_REGEX_DIR = os.environ.get("EXTRATOR_DEBUG_DIR")
 
 FURNITURE_KEYWORDS = [
     "cadeir",
@@ -76,14 +69,8 @@ def _record_sort_key(rec: ItemRecord) -> Tuple[str, str, str, int]:
     return (lote_key, "1", item_field.lower(), rec.page)
 
 
-def _bbox_to_cell(bbox: Optional[Tuple[float, float, float, float]]) -> str:
-    if not bbox:
-        return ""
-    return ",".join(f"{value:.2f}" for value in bbox)
-
-
-def _maybe_store(found: Dict[Tuple[str, str, int], ItemRecord], rec: ItemRecord):
-    key = ((rec.lote or "").strip(), (rec.item or "").strip(), rec.page)
+def _maybe_store(found: Dict[Tuple[str, str], ItemRecord], rec: ItemRecord):
+    key = ((rec.lote or "").strip(), rec.page, rec.item)
     existing = found.get(key)
     if existing is None or _record_rank(rec) < _record_rank(existing):
         found[key] = rec
@@ -193,9 +180,6 @@ def process_pdf(pdf_path: str, pages_range: Optional[Tuple[int, int]] = None):
     active_lote = active_lote_per_page(pages_text_raw)
     pages_text = _strip_common_headers(pages_text_raw)
 
-    markdown_pages = markdown_by_page(pdf_path)
-    page_slices = build_page_slices(pages_text, markdown_pages, active_lote)
-
     # Cabeçalho
     pag_amostra, amostra = search_pdf_for_bool(pages_text, "Amostra")
     pag_catalogo, catalogo = search_pdf_for_bool(pages_text, "Cat[aá]logo|Catalogo")
@@ -205,81 +189,18 @@ def process_pdf(pdf_path: str, pages_range: Optional[Tuple[int, int]] = None):
     start = pages_range[0] if pages_range else 1
     end = min(pages_range[1], n_pages) if pages_range else n_pages
 
-    candidate_pages_set = {
-        ps.page_number
-        for ps in page_slices
-        if ps.is_informative and start <= ps.page_number <= end
-    }
-    candidate_pages: List[int] = []
-    if candidate_pages_set:
-        expanded = set(candidate_pages_set)
-        for page in list(candidate_pages_set):
-            if page - 1 >= start:
-                expanded.add(page - 1)
-            if page + 1 <= end:
-                expanded.add(page + 1)
-        candidate_pages = sorted(expanded)
-    if not candidate_pages:
-        fallback_end = min(end, n_pages)
-        candidate_pages = list(range(start, fallback_end + 1))
-
-    found_by_key: Dict[Tuple[str, str, int], ItemRecord] = {}
-    debug_entries: List[str] = []
-    debug_enabled = bool(DEBUG_REGEX)
-
-    # Tables first (Camelot / layout aware)
-    table_records = extract_items_from_tables(pdf_path, candidate_pages, active_lote)
-    for rec in table_records:
-        if not rec.nome or rec.quantidade is None:
-            continue
-        _maybe_store(found_by_key, rec)
-
-    # Heuristic extraction over filtered pages
-    for pno in candidate_pages:
+    found_by_key: Dict[Tuple[str, str], ItemRecord] = {}
+    for pno in range(start, end + 1):
         txt = pages_text[pno - 1]
         lote_here = active_lote.get(pno)
-        page_slice = page_slices[pno - 1] if pno - 1 < len(page_slices) else None
-        page_had_match = False
-
-        if page_slice and page_slice.markdown.strip():
-            md_records = heuristic_markdown_tables(pno, page_slice.markdown, lote_here)
-            for rec in md_records:
-                if rec.nome and rec.quantidade is not None:
-                    _maybe_store(found_by_key, rec)
-                    page_had_match = True
-
-        text_variants: List[Tuple[str, str]] = []
-        if page_slice and page_slice.markdown.strip():
-            text_variants.append(("markdown", page_slice.markdown))
-        text_variants.append(("pdf_text", txt))
 
         # Em ordem de prioridade
-        for source_name, source_text in text_variants:
-            if not source_text.strip():
-                continue
-            source_match = False
-            for rec in heuristic_H1_table_lines(pno, source_text, lote_here):
-                _maybe_store(found_by_key, rec)
-                source_match = True
-                page_had_match = True
-            for rec in heuristic_H2_row_buffer(pno, source_text, lote_here):
-                _maybe_store(found_by_key, rec)
-                source_match = True
-                page_had_match = True
-            for rec in heuristic_H3_item_anchor(pno, source_text, lote_here):
-                _maybe_store(found_by_key, rec)
-                source_match = True
-                page_had_match = True
-            if debug_enabled and not source_match:
-                snippet = textwrap.shorten(source_text.replace("\n", " "), width=240, placeholder="…")
-                debug_entries.append(
-                    f"[{filename}] pág.{pno} sem match em {source_name}: {snippet}"
-                )
-        if debug_enabled and not page_had_match:
-            snippet = textwrap.shorten(txt.replace("\n", " "), width=240, placeholder="…")
-            debug_entries.append(
-                f"[{filename}] pág.{pno} sem registros após heurísticas. Trecho: {snippet}"
-            )
+        for rec in heuristic_H1_table_lines(pno, txt, lote_here):
+            _maybe_store(found_by_key, rec)
+        for rec in heuristic_H2_row_buffer(pno, txt, lote_here):
+            _maybe_store(found_by_key, rec)
+        for rec in heuristic_H3_item_anchor(pno, txt, lote_here):
+            _maybe_store(found_by_key, rec)
 
     # docs row
     all_records = list(found_by_key.values())
@@ -307,7 +228,7 @@ def process_pdf(pdf_path: str, pages_range: Optional[Tuple[int, int]] = None):
         for rec in furniture_records:
             by_page.setdefault(rec.page, []).append(rec)
 
-        table_pages = sorted({rec.page for rec in furniture_records if rec.fonte.startswith("tabela")})
+        table_pages = sorted({rec.page for rec in furniture_records if rec.fonte == "tabela"})
 
         if table_pages:
             clusters = _clusters_from_pages(table_pages)
@@ -315,7 +236,7 @@ def process_pdf(pdf_path: str, pages_range: Optional[Tuple[int, int]] = None):
             cluster_infos = []
             for cluster in clusters:
                 cluster_recs = [
-                    rec for page in cluster for rec in by_page.get(page, []) if rec.fonte.startswith("tabela")
+                    rec for page in cluster for rec in by_page.get(page, []) if rec.fonte == "tabela"
                 ]
                 if not cluster_recs:
                     cluster_recs = [
@@ -384,7 +305,7 @@ def process_pdf(pdf_path: str, pages_range: Optional[Tuple[int, int]] = None):
             selected_records = [
                 rec
                 for rec in furniture_records
-                if rec.page in selected_page_set and rec.fonte.startswith("tabela")
+                if rec.page in selected_page_set and rec.fonte == "tabela"
             ]
             if any(info.get("has_price") for info in selected_infos):
                 priced_records = [rec for rec in selected_records if rec.valor_unitario is not None]
@@ -420,29 +341,20 @@ def process_pdf(pdf_path: str, pages_range: Optional[Tuple[int, int]] = None):
             )
     else:
         observacao = "sem cadeiras/móveis identificados"
-
-    pipeline_components: List[str] = ["regex"]
-    if table_records:
-        pipeline_components.insert(0, "camelot")
-    if markdown_pages:
-        pipeline_components.insert(0, "docling")
-    pipeline_note = f"pipeline {'+'.join(pipeline_components)}; páginas informativas {len(candidate_pages)}/{n_pages}"
-    observacao = f"{observacao} | {pipeline_note}"
     docs_row = [doc_id, filename, doc_id, "pdf", n_pages, "", "", "tabelado", observacao]
 
     # labels long
     labels_rows = []
     for rec in furniture_records:
         fonte = rec.fonte
-        bbox_cell = _bbox_to_cell(rec.bbox)
-        labels_rows.append([doc_id, filename, rec.lote, rec.item, "lote", rec.lote, rec.page, bbox_cell, fonte, "batch"])
-        labels_rows.append([doc_id, filename, rec.lote, rec.item, "item", rec.item, rec.page, bbox_cell, fonte, "batch"])
+        labels_rows.append([doc_id, filename, rec.lote, rec.item, "lote", rec.lote, rec.page, "", fonte, "batch"])
+        labels_rows.append([doc_id, filename, rec.lote, rec.item, "item", rec.item, rec.page, "", fonte, "batch"])
         if rec.nome:
-            labels_rows.append([doc_id, filename, rec.lote, rec.item, "nome do produto", rec.nome, rec.page, bbox_cell, fonte, "batch"])
+            labels_rows.append([doc_id, filename, rec.lote, rec.item, "nome do produto", rec.nome, rec.page, "", fonte, "batch"])
         if rec.quantidade is not None:
-            labels_rows.append([doc_id, filename, rec.lote, rec.item, "quantidade", rec.quantidade, rec.page, bbox_cell, fonte, "batch"])
+            labels_rows.append([doc_id, filename, rec.lote, rec.item, "quantidade", rec.quantidade, rec.page, "", fonte, "batch"])
         if rec.valor_unitario is not None:
-            labels_rows.append([doc_id, filename, rec.lote, rec.item, "valor_unitario", rec.valor_unitario, rec.page, bbox_cell, fonte, "batch"])
+            labels_rows.append([doc_id, filename, rec.lote, rec.item, "valor_unitario", rec.valor_unitario, rec.page, "", fonte, "batch"])
 
     # Propaga cabeçalho
     if furniture_records:
@@ -455,13 +367,5 @@ def process_pdf(pdf_path: str, pages_range: Optional[Tuple[int, int]] = None):
                 labels_rows.append([doc_id, filename, rec.lote, rec.item, "garantia", garantia, pag_garantia, "", "cabeçalho", "batch"])
             if normas:
                 labels_rows.append([doc_id, filename, rec.lote, rec.item, "normas_técnicas", "; ".join(normas), pag_normas, "", "cabeçalho", "batch"])
-
-    if debug_enabled and debug_entries:
-        debug_dir = DEBUG_REGEX_DIR or os.path.join(os.getcwd(), "build", "regex_debug")
-        os.makedirs(debug_dir, exist_ok=True)
-        debug_filename = f"{os.path.splitext(filename)[0]}_{doc_id[:8]}_regex.log"
-        debug_path = os.path.join(debug_dir, debug_filename)
-        with open(debug_path, "w", encoding="utf-8") as debug_file:
-            debug_file.write("\n".join(debug_entries))
 
     return docs_row, labels_rows
