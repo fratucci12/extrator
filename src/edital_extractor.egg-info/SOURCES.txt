@@ -1,6 +1,10 @@
 LICENSE
 README.md
 pyproject.toml
+src/disdem_etl/__init__.py
+src/disdem_etl/html_to_unified.py
+src/disdem_etl/pdf_plus_hint_to_gt.py
+src/disdem_etl/utils.py
 src/edital_extractor/__init__.py
 src/edital_extractor/cli.py
 src/edital_extractor/extractors.py
@@ -10,5 +14,8 @@ src/edital_extractor/writers.py
 src/edital_extractor.egg-info/PKG-INFO
 src/edital_extractor.egg-info/SOURCES.txt
 src/edital_extractor.egg-info/dependency_links.txt
+src/edital_extractor.egg-info/entry_points.txt
 src/edital_extractor.egg-info/requires.txt
 src/edital_extractor.egg-info/top_level.txt
+tests/test_html_to_unified.py
+tests/test_pdf_plus_hint.py

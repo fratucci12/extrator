@@ -1,8 +1,6 @@
-"""Compat wrapper for legacy usage."""
-
 from __future__ import annotations
 
-from disdem_etl.html_to_unified import main
+from disdem_etl.pdf_plus_hint_to_gt import main
 
 
 if __name__ == "__main__":

@@ -1,7 +1,11 @@
 # edital_extractor
 
-Extrator em **lote** de itens de **editais em PDF** com **regex robusta** e heurísticas de fallback.
-Gera **XLSX** (abas `docs` e `labels_campos`) e **CSV** (`labels_campos`).
+Extrator em **lote** de itens de **editais** com duas frentes principais:
+
+- `html2csv`: converte telas do **DISDEM** salvas como HTML para CSVs normalizados (cabeçalho + itens) mantendo o nome-base do arquivo.
+- `pdf2gt`: usa os CSVs como **dica** e confirma os dados diretamente nos **PDFs** gerando o Ground Truth (`*_GT.csv`).
+
+O pacote legado (`edital_extractor`) permanece disponível para fluxos existentes.
 
 ## Instalação
 ```bash
@@ -12,12 +16,65 @@ pip install -e .
 ```
 
 ## Uso
+### CLI `html2csv`
+
+```bash
+html2csv --input ./html --out-dir ./csv_out --merge --add-source-col
+```
+
+- `--input`: pasta com `.html/.htm`.
+- `--out-dir`: onde salvar os CSVs (um por HTML, nome original preservado).
+- `--merge`: gera `merged.csv` somando todas as linhas.
+- `--merge-out`: caminho alternativo para o merged.
+- `--add-source-col`: acrescenta `source_html` apenas no merged.
+- Colunas do CSV: `amostra`, `catalogo`, `item`, `lote`, `produto`, `quantidade`, `ampla_concorrencia`, `valor_unitario`.
+
+### CLI `pdf2gt`
+
+```bash
+pdf2gt --pdf-dir ./meus_pdfs --csv-dir ./csv_out --out-dir ./gt --merge --min-score 70 --jobs 4
+```
+
+- `--pdf-dir`: PDFs originais.
+- `--csv-dir`: CSVs produzidos pelo `html2csv` (mesmo nome-base dos PDFs).
+- `--out-dir`: um `_GT.csv` por PDF + `GT_merged.csv` (se `--merge`).
+- `--min-score`: limiar RapidFuzz (default 60).
+- `--max-pages`: limita páginas processadas (0 = todas).
+- `--jobs`: paralelismo por processos (0 = serial).
+
+O pipeline usa Camelot (tabelas) e pdfplumber (texto), priorizando tabelas; se nenhum match for encontrado a linha sai com `fonte=nao_encontrado` e `evidencia=NAO_ENCONTRADO`.
+
+### Quick check
+
+Há um utilitário rápido:
+
+```bash
+python scripts/quick_check.py --type html csv_out/edital1.csv
+python scripts/quick_check.py --type gt gt/edital1_GT.csv
+```
+
+Ele valida colunas obrigatórias e duplicidades `(document_id, lote, item)` no GT.
+
+## Dependências extras
+
+- `camelot-py[cv]` (exige **Ghostscript 64-bit** no PATH do Windows).
+- `pdfplumber`
+- `rapidfuzz`
+- `pypdf`
+
+No Windows certifique-se de instalar Ghostscript e reiniciar o terminal para que `gswin64c.exe` fique acessível.
+
+Os leitores de HTML usam `utf-8`, `latin-1` e `cp1252` com `errors="ignore"`, garantindo compatibilidade com arquivos heterogêneos.
+
+## Pipeline legado
+
+O fluxo antigo continua disponível:
+
 ```bash
 python -m edital_extractor.cli --input ./meus_pdfs --out-xlsx golden_set.xlsx --out-csv golden_set.csv
 python -m edital_extractor.cli --input ./meus_pdfs --pages 25-27 --out-xlsx p25a27.xlsx
 ```
 
-## Saída
 - `docs`: metadados por PDF
 - `labels_campos`: formato longo com `pag` e `fonte`
 

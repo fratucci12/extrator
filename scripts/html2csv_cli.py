@@ -1,5 +1,3 @@
-"""Compat wrapper for legacy usage."""
-
 from __future__ import annotations
 
 from disdem_etl.html_to_unified import main

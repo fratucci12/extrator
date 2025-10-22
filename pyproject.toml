@@ -13,10 +13,30 @@ dependencies = [
     "pandas>=2.0.0",
     "openpyxl>=3.1.0",
     "tqdm>=4.66.0",
+    "pdfplumber>=0.11.0",
+    "camelot-py[cv]>=0.11.0",
+    "rapidfuzz>=3.0.0",
+    "pypdf>=4.0.0",
 ]
+
+[project.scripts]
+html2csv = "disdem_etl.html_to_unified:main"
+pdf2gt = "disdem_etl.pdf_plus_hint_to_gt:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

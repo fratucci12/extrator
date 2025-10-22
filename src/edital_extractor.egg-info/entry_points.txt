@@ -1,0 +1,3 @@
+[console_scripts]
+html2csv = disdem_etl.html_to_unified:main
+pdf2gt = disdem_etl.pdf_plus_hint_to_gt:main
