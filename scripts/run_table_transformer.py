@@ -8,15 +8,15 @@ from transformers import (
     TableTransformerForObjectDetection,
 )
 
-processor = DetrImageProcessor.from_pretrained("table-transformer-structure-recognition")
-model = TableTransformerForObjectDetection.from_pretrained("table-transformer-structure-recognition")
+processor = DetrImageProcessor.from_pretrained("microsoft/table-transformer-structure-recognition")
+model = TableTransformerForObjectDetection.from_pretrained("microsoft/table-transformer-structure-recognition")
 
-pdf_path = Path("meus_pdfs/edital7.pdf")
+pdf_path = Path("meus_pdfs/edital1.pdf")
 out_path = Path("build/table_transformer")
 out_path.mkdir(parents=True, exist_ok=True)
 
 # Exemplo: só a primeira página; ajuste conforme precisar
-images = convert_from_path(str(pdf_path), first_page=1, last_page=30)
+images = convert_from_path(str(pdf_path), first_page=1, last_page=1000)
 
 for idx, image in enumerate(images, start=1):
     inputs = processor(images=image, return_tensors="pt")
@@ -27,7 +27,7 @@ for idx, image in enumerate(images, start=1):
     results = processor.post_process_object_detection(
         outputs,
         target_sizes=target_sizes,
-        threshold=0.85,  # ajuste do score mínimo
+        threshold=0.93,  # ajuste do score mínimo
     )[0]
 
     detections = []

@@ -76,8 +76,7 @@ from .utils import (
 logger = logging.getLogger("disdem_etl.pdf")
 
 _dedoc_manager_cache: Any | None = None
-_table_transformer_processor: Any | None = None
-_table_transformer_model: Any | None = None
+_table_transformer_components: Dict[str, Tuple[Any | None, Any | None]] = {}
 
 
 GT_COLUMNS: List[str] = [
@@ -129,9 +128,37 @@ class TableRow:
     page: int
     text: str
     cells: List[str]
+    bbox_pdf: Tuple[float, float, float, float] | None = None
+    bbox_image: Tuple[float, float, float, float] | None = None
+    score: float | None = None
 
     def contains_item(self, item: str) -> bool:
         return bool(re.search(rf"\b{re.escape(item)}\b", self.text))
+
+
+def _convert_image_box_to_pdf_box(
+    box: Sequence[float],
+    *,
+    image_size: Tuple[int, int],
+    pdf_size: Tuple[float, float],
+) -> Tuple[float, float, float, float]:
+    img_w, img_h = image_size
+    pdf_width, pdf_height = pdf_size
+    xmin, ymin, xmax, ymax = box
+    left = max(0.0, float(xmin) / img_w * pdf_width)
+    right = min(pdf_width, float(xmax) / img_w * pdf_width)
+    top_img = float(ymin)
+    bottom_img = float(ymax)
+    top_pdf = pdf_height - (top_img / img_h * pdf_height)
+    bottom_pdf = pdf_height - (bottom_img / img_h * pdf_height)
+    top = max(top_pdf, bottom_pdf)
+    bottom = min(top_pdf, bottom_pdf)
+    return (
+        max(0.0, left),
+        max(0.0, bottom),
+        min(pdf_width, right),
+        min(pdf_height, top),
+    )
 
 
 def _get_dedoc_manager() -> Any | None:
@@ -255,24 +282,49 @@ def _extract_with_dedoc(
     return dedoc_text, dedoc_tables
 
 
-def _get_table_transformer_components() -> Tuple[Any | None, Any | None]:
-    global _table_transformer_processor, _table_transformer_model
+def _get_table_transformer_components(
+    variant: str = "detection",
+) -> Tuple[Any | None, Any | None]:
+    variant = variant.lower()
+    global _table_transformer_components
     if DetrImageProcessor is None or TableTransformerForObjectDetection is None:
         return None, None
-    if _table_transformer_processor is None or _table_transformer_model is None:
+    if variant not in {"detection", "structure"}:
+        raise ValueError(f"Variante Table Transformer desconhecida: {variant}")
+
+    cached = _table_transformer_components.get(variant)
+    if cached is not None:
+        return cached
+
+    model_name = (
+        "microsoft/table-transformer-detection"
+        if variant == "detection"
+        else "microsoft/table-transformer-structure-recognition"
+    )
+
+    processor: Any | None = None
+    model: Any | None = None
+    try:
+        processor = DetrImageProcessor.from_pretrained(model_name)
+        model = TableTransformerForObjectDetection.from_pretrained(model_name)
+        model.eval()
+    except Exception as exc:  # pragma: no cover - runtime guard
+        logger.warning("Falha ao carregar Table Transformer (%s): %s", variant, exc)
+        processor = None
+        model = None
+
+    _table_transformer_components[variant] = (processor, model)
+    return processor, model
+
+
+def _clear_table_transformer_cache() -> None:
+    """Helper for tests."""
+    _table_transformer_components.clear()
+    if torch is not None:
         try:
-            _table_transformer_processor = DetrImageProcessor.from_pretrained(
-                "microsoft/table-transformer-detection"
-            )
-            _table_transformer_model = TableTransformerForObjectDetection.from_pretrained(
-                "microsoft/table-transformer-detection"
-            )
-            _table_transformer_model.eval()
-        except Exception as exc:  # pragma: no cover - runtime guard
-            logger.warning("Falha ao carregar Table Transformer: %s", exc)
-            _table_transformer_processor = None
-            _table_transformer_model = None
-    return _table_transformer_processor, _table_transformer_model
+            torch.cuda.empty_cache()  # type: ignore[attr-defined]
+        except Exception:  # pragma: no cover - defensive
+            pass
 
 
 def _extract_with_table_transformer(
@@ -281,7 +333,7 @@ def _extract_with_table_transformer(
     max_pages: int,
     threshold: float = 0.9,
 ) -> List[TableRow]:
-    processor, model = _get_table_transformer_components()
+    processor, model = _get_table_transformer_components("detection")
     if (
         processor is None
         or model is None
@@ -357,7 +409,6 @@ def _extract_with_table_transformer(
                     if labels_tensor is not None
                     else [0] * len(boxes)
                 )
-
                 pdf_width, pdf_height = page.width, page.height
                 img_w, img_h = image.size
 
@@ -366,19 +417,10 @@ def _extract_with_table_transformer(
                     if label_name.lower() not in {"table", "table rotated"}:
                         continue
 
-                    left = max(0.0, float(box[0]) / img_w * pdf_width)
-                    right = min(pdf_width, float(box[2]) / img_w * pdf_width)
-                    top_img = float(box[1])
-                    bottom_img = float(box[3])
-                    top_pdf = pdf_height - (top_img / img_h * pdf_height)
-                    bottom_pdf = pdf_height - (bottom_img / img_h * pdf_height)
-                    top = max(top_pdf, bottom_pdf)
-                    bottom = min(top_pdf, bottom_pdf)
-                    bbox = (
-                        max(0.0, left),
-                        max(0.0, bottom),
-                        min(pdf_width, right),
-                        min(pdf_height, top),
+                    bbox = _convert_image_box_to_pdf_box(
+                        box,
+                        image_size=(img_w, img_h),
+                        pdf_size=(pdf_width, pdf_height),
                     )
 
                     if bbox[0] >= bbox[2] or bbox[1] >= bbox[3]:
@@ -408,6 +450,14 @@ def _extract_with_table_transformer(
                             page=page_index + 1,
                             text=row_text,
                             cells=cells,
+                            bbox_pdf=bbox,
+                            bbox_image=(
+                                float(box[0]),
+                                float(box[1]),
+                                float(box[2]),
+                                float(box[3]),
+                            ),
+                            score=float(score),
                         )
                     )
 

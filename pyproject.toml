@@ -22,6 +22,7 @@ dependencies = [
 [project.scripts]
 html2csv = "disdem_etl.html_to_unified:main"
 pdf2gt = "disdem_etl.pdf_plus_hint_to_gt:main"
+pdf2jsonllm = "disdem_etl.llm_pdf_tables:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

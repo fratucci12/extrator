@@ -3,6 +3,7 @@ README.md
 pyproject.toml
 src/disdem_etl/__init__.py
 src/disdem_etl/html_to_unified.py
+src/disdem_etl/llm_pdf_tables.py
 src/disdem_etl/pdf_plus_hint_to_gt.py
 src/disdem_etl/utils.py
 src/edital_extractor/__init__.py
@@ -20,6 +21,7 @@ src/edital_extractor.egg-info/entry_points.txt
 src/edital_extractor.egg-info/requires.txt
 src/edital_extractor.egg-info/top_level.txt
 tests/test_html_to_unified.py
+tests/test_llm_pdf_tables.py
 tests/test_markdown_extractor.py
 tests/test_pdf_plus_hint.py
 tests/test_preprocessing.py

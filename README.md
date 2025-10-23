@@ -48,6 +48,17 @@ pdf2gt --pdf-dir ./meus_pdfs --csv-dir ./csv_out --out-dir ./gt --merge --min-sc
 
 O pipeline usa Camelot (tabelas) e pdfplumber (texto), priorizando tabelas; se nenhum match for encontrado a linha sai com `fonte=nao_encontrado` e `evidencia=NAO_ENCONTRADO`.
 
+### CLI `pdf2jsonllm`
+
+```bash
+pdf2jsonllm ./meus_pdfs/edital7.pdf --detector auto --model gpt-4o-mini --force-json --out build/edital7_tables.json
+```
+
+- Usa Table Transformer (quando instalado) ou Camelot como fallback para localizar tabelas.
+- Envia cada tabela a um LLM compatível com a API OpenAI, retornando JSON estruturado (`--force-json` aproveita o modo JSON nativo).
+- Configure `OPENAI_API_KEY` (e `OPENAI_BASE_URL`, se necessário) ou passe `--api-key`/`--api-base`.
+- Ajuste `--instruction`/`--system-prompt` para guiar o mapeamento das colunas ou aplique `--dry-run` para apenas inspecionar as tabelas detectadas.
+
 ### Quick check
 
 Há um utilitário rápido:
