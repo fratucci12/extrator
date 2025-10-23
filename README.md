@@ -41,6 +41,10 @@ pdf2gt --pdf-dir ./meus_pdfs --csv-dir ./csv_out --out-dir ./gt --merge --min-sc
 - `--min-score`: limiar RapidFuzz (default 60).
 - `--max-pages`: limita páginas processadas (0 = todas).
 - `--jobs`: paralelismo por processos (0 = serial).
+- `--dedoc`: ativa extração de texto/tabelas via [Dedoc](https://github.com/ispras/dedoc). O pipeline também aproveita o Table Transformer para detectar tabelas antes de recorrer ao Camelot.
+- `--dedoc-language`: define idiomas do Dedoc (ex.: `por`, `por+eng`).
+- `--dedoc`: ativa extração de texto/tabelas via [Dedoc](https://github.com/ispras/dedoc) quando o ambiente estiver preparado.
+- `--dedoc-language`: define idiomas do Dedoc (ex.: `por`, `por+eng`).
 
 O pipeline usa Camelot (tabelas) e pdfplumber (texto), priorizando tabelas; se nenhum match for encontrado a linha sai com `fonte=nao_encontrado` e `evidencia=NAO_ENCONTRADO`.
 
