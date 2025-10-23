@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from disdem_etl import pdf_plus_hint_to_gt as pdf_gt
+from disdem_etl.utils import HintRow
 
 
 def test_extract_quantity_ampla_from_text():
@@ -56,10 +57,114 @@ def test_generate_gt_dataframe_without_hints(monkeypatch, tmp_path):
     monkeypatch.setattr(pdf_gt, "compute_sha256", lambda *_args, **_kwargs: "hash123")
     monkeypatch.setattr(pdf_gt, "extract_regex_records", lambda *_args, **_kwargs: records)
 
-    df = pdf_gt.generate_gt_dataframe(sample_pdf, None, min_score=60, max_pages=0)
+    df = pdf_gt.generate_gt_dataframe(
+        sample_pdf,
+        None,
+        min_score=60,
+        max_pages=0,
+        use_dedoc=False,
+        dedoc_language="por",
+    )
     assert not df.empty
     assert list(df["item"]) == ["001"]
     assert df.iloc[0]["filename_pdf"] == "sample.pdf"
     assert df.iloc[0]["fonte"] == "pdf_tabela"
     assert df.iloc[0]["valor_unitario"] == "R$ 123,45"
     assert df.iloc[0]["hint_produto"] == ""
+
+
+def test_generate_gt_dataframe_with_dedoc(monkeypatch, tmp_path):
+    sample_pdf = tmp_path / "sample.pdf"
+    sample_pdf.write_bytes(b"placeholder content")
+
+    class DummyReader:
+        def __init__(self, *_args, **_kwargs):
+            self.pages = [object()]
+
+    hint = HintRow(
+        item="001",
+        lote="01",
+        produto="Mesa redonda com tampo",
+        tipo_produto="",
+        descricao_tipo="",
+        produto_referencia="",
+        quantidade="",
+        ampla_concorrencia="",
+        valor_unitario="",
+        header={"orgao_codigo": "X", "processo": "Y"},
+    )
+
+    monkeypatch.setattr(pdf_gt, "PdfReader", DummyReader)
+    monkeypatch.setattr(pdf_gt, "compute_sha256", lambda *_args, **_kwargs: "hash123")
+    monkeypatch.setattr(pdf_gt, "extract_regex_records", lambda *_args, **_kwargs: [])
+    monkeypatch.setattr(pdf_gt, "extract_pdf_text_lines", lambda *_args, **_kwargs: [])
+    monkeypatch.setattr(pdf_gt, "extract_tables", lambda *_args, **_kwargs: [])
+    monkeypatch.setattr(pdf_gt, "load_hint_rows", lambda *_args, **_kwargs: [hint])
+    monkeypatch.setattr(
+        pdf_gt,
+        "_extract_with_dedoc",
+        lambda *_args, **_kwargs: (
+            [(1, ["Item 001 - Mesa redonda com tampo especial"])],
+            [],
+        ),
+    )
+
+    csv_path = tmp_path / "dummy.csv"
+    csv_path.write_text("item,lote\n001,01\n", encoding="utf-8")
+
+    df = pdf_gt.generate_gt_dataframe(
+        sample_pdf,
+        csv_path,
+        min_score=60,
+        max_pages=0,
+        use_dedoc=True,
+        dedoc_language="por",
+    )
+    assert not df.empty
+    row = df.iloc[0]
+    assert row["fonte"] == "pdf_text"
+    assert "Mesa redonda" in row["nome_real"]
+
+
+def test_generate_gt_dataframe_with_table_transformer(monkeypatch, tmp_path):
+    sample_pdf = tmp_path / "sample.pdf"
+    sample_pdf.write_bytes(b"placeholder content")
+
+    class DummyReader:
+        def __init__(self, *_args, **_kwargs):
+            self.pages = [object()]
+
+    csv_path = tmp_path / "hints.csv"
+    csv_path.write_text("item,lote,produto\n001,01,Mesa redonda com tampo\n", encoding="utf-8")
+
+    monkeypatch.setattr(pdf_gt, "PdfReader", DummyReader)
+    monkeypatch.setattr(pdf_gt, "compute_sha256", lambda *_args, **_kwargs: "hash123")
+    monkeypatch.setattr(pdf_gt, "extract_pdf_text_lines", lambda *_args, **_kwargs: [])
+    monkeypatch.setattr(pdf_gt, "extract_tables", lambda *_args, **_kwargs: [])
+    monkeypatch.setattr(pdf_gt, "extract_regex_records", lambda *_args, **_kwargs: [])
+    monkeypatch.setattr(pdf_gt, "_extract_with_dedoc", lambda *_args, **_kwargs: ([], []))
+    monkeypatch.setattr(
+        pdf_gt,
+        "_extract_with_table_transformer",
+        lambda *_args, **_kwargs: [
+            pdf_gt.TableRow(
+                page=1,
+                text="Item 001 Mesa redonda com tampo",
+                cells=["Item 001", "Mesa redonda com tampo"],
+            )
+        ],
+    )
+
+    df = pdf_gt.generate_gt_dataframe(
+        sample_pdf,
+        csv_path,
+        min_score=60,
+        max_pages=0,
+        use_dedoc=False,
+        dedoc_language="por",
+    )
+
+    assert not df.empty
+    row = df.iloc[0]
+    assert row["fonte"] == "pdf_tabela"
+    assert row["pagina"] == "1"
